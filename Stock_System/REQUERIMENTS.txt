@@ -1,0 +1,6 @@
+Install-Package Microsoft.Extensions.Configuration -Version 8.0.0
+Install-Package Microsoft.Extensions.Configuration.Json -Version 8.0.0
+Install-Package MySql.Data -Version 9.0.0
+Install-Package Dapper -Version 2.1.28
+Install-Package ClosedXML -Version 0.102.2
+Install-Package DocumentFormat.OpenXml -Version 2.21.1

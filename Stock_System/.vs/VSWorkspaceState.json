@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\bin",
+    "\\bin\\Debug",
+    "\\bin\\Debug\\net8.0-windows\\runtimes",
+    "\\bin\\Release",
+    "\\bin\\Release\\net8.0-windows",
+    "\\Data"
+  ],
+  "SelectedNode": "\\MainWindow.xaml",
+  "PreviewInSolutionExplorer": false
+}
