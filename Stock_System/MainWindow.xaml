@@ -31,8 +31,8 @@
 
             <DockPanel Margin="0,0,0,10">
                 <TextBox x:Name="txtBusca" Width="280" />
-                <Button Content="Buscar" Click="Buscar_Click"/>
-                <Button Content="Limpar" Background="#E5E7EB" Foreground="#111" Click="LimparBusca_Click"/>
+                <Button Content="Buscar" Click="Buscar_Click" Width="200"/>
+                <Button Content="Limpar" Background="#E5E7EB" Foreground="#111" Click="LimparBusca_Click" Width="200" HorizontalAlignment="Left"/>
             </DockPanel>
 
             <DataGrid x:Name="dgRolos"
