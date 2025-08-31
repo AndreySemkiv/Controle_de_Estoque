@@ -1,0 +1,13 @@
+CREATE DATABASE IF NOT EXISTS estoque_rolos 
+  CHARACTER SET utf8mb4 
+  COLLATE utf8mb4_unicode_ci;
+
+USE estoque_rolos;
+
+CREATE TABLE IF NOT EXISTS rolos (
+  Id INT AUTO_INCREMENT PRIMARY KEY,
+  IdRolo VARCHAR(50) NOT NULL,
+  Milimetragem INT NOT NULL,
+  MetragemDisponivel DOUBLE NOT NULL,
+  WIP VARCHAR(20) NOT NULL
+);
