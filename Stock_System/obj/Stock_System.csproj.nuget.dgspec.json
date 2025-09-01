@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Andrey\\Source\\Repos\\Stock_System\\Stock_System\\Stock_System.csproj": {}
+    "C:\\Users\\ALUNO SESI SENAI\\Source\\Repos\\Stock_System\\Stock_System\\Stock_System.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Andrey\\Source\\Repos\\Stock_System\\Stock_System\\Stock_System.csproj": {
+    "C:\\Users\\ALUNO SESI SENAI\\Source\\Repos\\Stock_System\\Stock_System\\Stock_System.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Andrey\\Source\\Repos\\Stock_System\\Stock_System\\Stock_System.csproj",
+        "projectUniqueName": "C:\\Users\\ALUNO SESI SENAI\\Source\\Repos\\Stock_System\\Stock_System\\Stock_System.csproj",
         "projectName": "Stock_System",
-        "projectPath": "C:\\Users\\Andrey\\Source\\Repos\\Stock_System\\Stock_System\\Stock_System.csproj",
-        "packagesPath": "C:\\Users\\Andrey\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Andrey\\Source\\Repos\\Stock_System\\Stock_System\\obj\\",
+        "projectPath": "C:\\Users\\ALUNO SESI SENAI\\Source\\Repos\\Stock_System\\Stock_System\\Stock_System.csproj",
+        "packagesPath": "C:\\Users\\ALUNO SESI SENAI\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ALUNO SESI SENAI\\Source\\Repos\\Stock_System\\Stock_System\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Andrey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ALUNO SESI SENAI\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
