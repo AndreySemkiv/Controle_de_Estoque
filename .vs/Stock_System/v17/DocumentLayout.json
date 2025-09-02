@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -63,18 +63,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\ALUNO SESI SENAI\\Source\\Repos\\Stock_System\\Stock_System\\App.xaml",
-              "RelativeDocumentMoniker": "Stock_System\\App.xaml",
-              "ToolTip": "C:\\Users\\ALUNO SESI SENAI\\Source\\Repos\\Stock_System\\Stock_System\\App.xaml",
-              "RelativeToolTip": "Stock_System\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-02T11:36:27.962Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -159,10 +147,22 @@
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\ALUNO SESI SENAI\\source\\repos\\Stock_System\\Stock_System\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Stock_System\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\ALUNO SESI SENAI\\source\\repos\\Stock_System\\Stock_System\\MainWindow.xaml",
-              "RelativeToolTip": "Stock_System\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\ALUNO SESI SENAI\\source\\repos\\Stock_System\\Stock_System\\MainWindow.xaml*",
+              "RelativeToolTip": "Stock_System\\MainWindow.xaml*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-08-31T16:25:45.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\ALUNO SESI SENAI\\Source\\Repos\\Stock_System\\Stock_System\\App.xaml",
+              "RelativeDocumentMoniker": "Stock_System\\App.xaml",
+              "ToolTip": "C:\\Users\\ALUNO SESI SENAI\\Source\\Repos\\Stock_System\\Stock_System\\App.xaml",
+              "RelativeToolTip": "Stock_System\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-02T11:36:27.962Z",
               "EditorCaption": ""
             },
             {
