@@ -13,7 +13,8 @@
           "DocumentFormat.OpenXml": "3.3.0",
           "Microsoft.Extensions.Configuration": "9.0.8",
           "Microsoft.Extensions.Configuration.Json": "9.0.8",
-          "MySql.Data": "9.4.0"
+          "MySql.Data": "9.4.0",
+          "System.Text.Json": "9.0.8"
         },
         "runtime": {
           "Stock_System.dll": {}

@@ -2,10 +2,12 @@ namespace EstoqueRolos.Models
 {
     public class Rolo
     {
-        public int Id { get; set; }
-        public string IdRolo { get; set; } = "";
+        public string Code { get; set; } = string.Empty;      
+        public string Descricao { get; set; } = string.Empty;
         public int Milimetragem { get; set; }
-        public double MetragemDisponivel { get; set; }
-        public string WIP { get; set; } = "Estoque";
+        public decimal MOQ { get; set; }
+        public decimal Estoque { get; set; }
+        public decimal MetragemWIP { get; set; }
     }
 }
+

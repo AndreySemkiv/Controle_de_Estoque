@@ -49,7 +49,7 @@ namespace EstoqueRolos
                 try
                 {
                     var novo = dlg.RoloEditado;
-                    novo.Id = await _repo.InsertAsync(novo);
+                    await _repo.InsertAsync(novo);
                     _dados.Insert(0, novo);
                 }
                 catch (Exception ex)
@@ -100,11 +100,11 @@ namespace EstoqueRolos
                 MessageBox.Show("Selecione um item para excluir.");
                 return;
             }
-            if (MessageBox.Show($"Excluir rolo '{Selecionado.IdRolo}'?", "Confirmar", MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes)
+            if (MessageBox.Show($"Excluir rolo '{Selecionado.Code}'?", "Confirmar", MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes)
             {
                 try
                 {
-                    await _repo.DeleteAsync(Selecionado.Id);
+                    await _repo.DeleteAsync(Selecionado.Code);
                     _dados.Remove(Selecionado);
                 }
                 catch (Exception ex)
@@ -126,7 +126,7 @@ namespace EstoqueRolos
 
                 if (dlg.ShowDialog() == true)
                 {
-                    var caminho = ExcelExporter.Exportar(_dados, dlg.FileName);
+                    var caminho = ExcelExporter.Exportar(_dados, Path.GetDirectoryName(dlg.FileName)!);
                     MessageBox.Show("Exportado com sucesso: " + caminho, "Sucesso", MessageBoxButton.OK, MessageBoxImage.Information);
                     if (File.Exists(caminho))
                         System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo() { FileName = caminho, UseShellExecute = true });
@@ -138,16 +138,16 @@ namespace EstoqueRolos
             }
         }
 
-        private async void Buscar_Click(object sender, RoutedEventArgs e)
+        private void Buscar_Click(object sender, RoutedEventArgs e)
         {
             var termo = txtBusca.Text?.Trim();
             if (string.IsNullOrEmpty(termo))
             {
-                await CarregarAsync();
+                dgRolos.ItemsSource = _dados;
                 return;
             }
 
-            var filtrados = _dados.Where(r => r.IdRolo != null && r.IdRolo.IndexOf(termo, StringComparison.OrdinalIgnoreCase) >= 0).ToList();
+            var filtrados = _dados.Where(r => r.Code != null && r.Code.IndexOf(termo, StringComparison.OrdinalIgnoreCase) >= 0).ToList();
             dgRolos.ItemsSource = filtrados;
         }
 

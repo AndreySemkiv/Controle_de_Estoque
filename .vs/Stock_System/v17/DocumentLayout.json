@@ -7,8 +7,24 @@
       "RelativeMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|solutionrelative:stock_system\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|c:\\users\\aluno sesi senai\\source\\repos\\stock_system\\stock_system\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|solutionrelative:stock_system\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|c:\\users\\aluno sesi senai\\source\\repos\\stock_system\\stock_system\\models\\rolo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|solutionrelative:stock_system\\models\\rolo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|c:\\users\\aluno sesi senai\\source\\repos\\stock_system\\stock_system\\data\\rolorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|solutionrelative:stock_system\\data\\rolorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|c:\\users\\aluno sesi senai\\source\\repos\\stock_system\\stock_system\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|solutionrelative:stock_system\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|c:\\users\\aluno sesi senai\\source\\repos\\stock_system\\stock_system\\views\\rolodialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|solutionrelative:stock_system\\views\\rolodialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|c:\\users\\aluno sesi senai\\source\\repos\\stock_system\\stock_system\\views\\rolodialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -17,14 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|c:\\users\\aluno sesi senai\\source\\repos\\stock_system\\stock_system\\utils\\excelexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|solutionrelative:stock_system\\utils\\excelexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|c:\\users\\aluno sesi senai\\source\\repos\\stock_system\\stock_system\\models\\rolo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|solutionrelative:stock_system\\models\\rolo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|c:\\users\\aluno sesi senai\\source\\repos\\stock_system\\stock_system\\stock_system.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|solutionrelative:stock_system\\stock_system.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,87 +42,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 10,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RoloRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ALUNO SESI SENAI\\source\\repos\\Stock_System\\Stock_System\\Data\\RoloRepository.cs",
-              "RelativeDocumentMoniker": "Stock_System\\Data\\RoloRepository.cs",
-              "ToolTip": "C:\\Users\\ALUNO SESI SENAI\\source\\repos\\Stock_System\\Stock_System\\Data\\RoloRepository.cs",
-              "RelativeToolTip": "Stock_System\\Data\\RoloRepository.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T14:33:10.63Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RoloDialog.xaml",
-              "DocumentMoniker": "C:\\Users\\ALUNO SESI SENAI\\source\\repos\\Stock_System\\Stock_System\\Views\\RoloDialog.xaml",
-              "RelativeDocumentMoniker": "Stock_System\\Views\\RoloDialog.xaml",
-              "ToolTip": "C:\\Users\\ALUNO SESI SENAI\\source\\repos\\Stock_System\\Stock_System\\Views\\RoloDialog.xaml",
-              "RelativeToolTip": "Stock_System\\Views\\RoloDialog.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-01T14:33:01.641Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ExcelExporter.cs",
-              "DocumentMoniker": "C:\\Users\\ALUNO SESI SENAI\\source\\repos\\Stock_System\\Stock_System\\Utils\\ExcelExporter.cs",
-              "RelativeDocumentMoniker": "Stock_System\\Utils\\ExcelExporter.cs",
-              "ToolTip": "C:\\Users\\ALUNO SESI SENAI\\source\\repos\\Stock_System\\Stock_System\\Utils\\ExcelExporter.cs",
-              "RelativeToolTip": "Stock_System\\Utils\\ExcelExporter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T14:32:58.687Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Rolo.cs",
-              "DocumentMoniker": "C:\\Users\\ALUNO SESI SENAI\\source\\repos\\Stock_System\\Stock_System\\Models\\Rolo.cs",
-              "RelativeDocumentMoniker": "Stock_System\\Models\\Rolo.cs",
-              "ToolTip": "C:\\Users\\ALUNO SESI SENAI\\source\\repos\\Stock_System\\Stock_System\\Models\\Rolo.cs",
-              "RelativeToolTip": "Stock_System\\Models\\Rolo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T14:32:43.1Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\ALUNO SESI SENAI\\source\\repos\\Stock_System\\Stock_System\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "Stock_System\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\ALUNO SESI SENAI\\source\\repos\\Stock_System\\Stock_System\\MainWindow.xaml",
-              "RelativeToolTip": "Stock_System\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-08-31T16:25:45.391Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Stock_System.csproj",
-              "DocumentMoniker": "C:\\Users\\ALUNO SESI SENAI\\Source\\Repos\\Stock_System\\Stock_System\\Stock_System.csproj",
-              "RelativeDocumentMoniker": "Stock_System\\Stock_System.csproj",
-              "ToolTip": "C:\\Users\\ALUNO SESI SENAI\\Source\\Repos\\Stock_System\\Stock_System\\Stock_System.csproj",
-              "RelativeToolTip": "Stock_System\\Stock_System.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-31T16:25:39.269Z"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
@@ -132,8 +61,106 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ALUNO SESI SENAI\\source\\repos\\Stock_System\\Stock_System\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Stock_System\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ALUNO SESI SENAI\\source\\repos\\Stock_System\\Stock_System\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Stock_System\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T11:14:53.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RoloDialog.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ALUNO SESI SENAI\\source\\repos\\Stock_System\\Stock_System\\Views\\RoloDialog.xaml.cs",
+              "RelativeDocumentMoniker": "Stock_System\\Views\\RoloDialog.xaml.cs",
+              "ToolTip": "C:\\Users\\ALUNO SESI SENAI\\source\\repos\\Stock_System\\Stock_System\\Views\\RoloDialog.xaml.cs",
+              "RelativeToolTip": "Stock_System\\Views\\RoloDialog.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T11:09:10.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RoloRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ALUNO SESI SENAI\\source\\repos\\Stock_System\\Stock_System\\Data\\RoloRepository.cs",
+              "RelativeDocumentMoniker": "Stock_System\\Data\\RoloRepository.cs",
+              "ToolTip": "C:\\Users\\ALUNO SESI SENAI\\source\\repos\\Stock_System\\Stock_System\\Data\\RoloRepository.cs",
+              "RelativeToolTip": "Stock_System\\Data\\RoloRepository.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAcwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T11:07:42.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Rolo.cs",
+              "DocumentMoniker": "C:\\Users\\ALUNO SESI SENAI\\source\\repos\\Stock_System\\Stock_System\\Models\\Rolo.cs",
+              "RelativeDocumentMoniker": "Stock_System\\Models\\Rolo.cs",
+              "ToolTip": "C:\\Users\\ALUNO SESI SENAI\\source\\repos\\Stock_System\\Stock_System\\Models\\Rolo.cs",
+              "RelativeToolTip": "Stock_System\\Models\\Rolo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T10:59:28.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ExcelExporter.cs",
+              "DocumentMoniker": "C:\\Users\\ALUNO SESI SENAI\\source\\repos\\Stock_System\\Stock_System\\Utils\\ExcelExporter.cs",
+              "RelativeDocumentMoniker": "Stock_System\\Utils\\ExcelExporter.cs",
+              "ToolTip": "C:\\Users\\ALUNO SESI SENAI\\source\\repos\\Stock_System\\Stock_System\\Utils\\ExcelExporter.cs",
+              "RelativeToolTip": "Stock_System\\Utils\\ExcelExporter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T10:59:26.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RoloDialog.xaml",
+              "DocumentMoniker": "C:\\Users\\ALUNO SESI SENAI\\source\\repos\\Stock_System\\Stock_System\\Views\\RoloDialog.xaml",
+              "RelativeDocumentMoniker": "Stock_System\\Views\\RoloDialog.xaml",
+              "ToolTip": "C:\\Users\\ALUNO SESI SENAI\\source\\repos\\Stock_System\\Stock_System\\Views\\RoloDialog.xaml",
+              "RelativeToolTip": "Stock_System\\Views\\RoloDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-02T10:59:21.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ALUNO SESI SENAI\\source\\repos\\Stock_System\\Stock_System\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Stock_System\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\ALUNO SESI SENAI\\source\\repos\\Stock_System\\Stock_System\\MainWindow.xaml",
+              "RelativeToolTip": "Stock_System\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-31T16:25:45.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ALUNO SESI SENAI\\source\\repos\\Stock_System\\Stock_System\\appsettings.json",
+              "RelativeDocumentMoniker": "Stock_System\\appsettings.json",
+              "ToolTip": "C:\\Users\\ALUNO SESI SENAI\\source\\repos\\Stock_System\\Stock_System\\appsettings.json",
+              "RelativeToolTip": "Stock_System\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-02T11:19:51.132Z",
+              "EditorCaption": ""
             }
           ]
         }

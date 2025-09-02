@@ -21,34 +21,46 @@ namespace EstoqueRolos.Data
         public async Task<IEnumerable<Rolo>> GetAllAsync()
         {
             using var con = GetConn();
-            return await con.QueryAsync<Rolo>("SELECT Id, IdRolo, Milimetragem, MetragemDisponivel, WIP FROM rolos ORDER BY Id DESC");
+            var sql = @"SELECT 
+                            Code, 
+                            Descricao, 
+                            Milimetragem, 
+                            MOQ, 
+                            Estoque, 
+                            MetragemWIP 
+                        FROM rolos 
+                        ORDER BY Code";
+            return await con.QueryAsync<Rolo>(sql);
         }
 
         public async Task<int> InsertAsync(Rolo r)
         {
             using var con = GetConn();
-            var sql = @"INSERT INTO rolos (IdRolo, Milimetragem, MetragemDisponivel, WIP)
-                        VALUES (@IdRolo, @Milimetragem, @MetragemDisponivel, @WIP);
-                        SELECT LAST_INSERT_ID();";
-            return await con.ExecuteScalarAsync<int>(sql, r);
+            var sql = @"INSERT INTO rolos 
+                            (Code, Descricao, Milimetragem, MOQ, Estoque, MetragemWIP)
+                        VALUES 
+                            (@Code, @Descricao, @Milimetragem, @MOQ, @Estoque, @MetragemWIP)";
+            return await con.ExecuteAsync(sql, r);
         }
 
         public async Task<int> UpdateAsync(Rolo r)
         {
             using var con = GetConn();
             var sql = @"UPDATE rolos SET
-                        IdRolo=@IdRolo,
-                        Milimetragem=@Milimetragem,
-                        MetragemDisponivel=@MetragemDisponivel,
-                        WIP=@WIP
-                        WHERE Id=@Id";
+                            Descricao = @Descricao,
+                            Milimetragem = @Milimetragem,
+                            MOQ = @MOQ,
+                            Estoque = @Estoque,
+                            MetragemWIP = @MetragemWIP
+                        WHERE Code = @Code";
             return await con.ExecuteAsync(sql, r);
         }
 
-        public async Task<int> DeleteAsync(int id)
+        public async Task<int> DeleteAsync(string code)
         {
             using var con = GetConn();
-            return await con.ExecuteAsync("DELETE FROM rolos WHERE Id=@id", new { id });
+            var sql = "DELETE FROM rolos WHERE Code = @code";
+            return await con.ExecuteAsync(sql, new { code });
         }
     }
 }

@@ -74,6 +74,10 @@
             "MySql.Data": {
               "target": "Package",
               "version": "[9.4.0, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[9.0.8, )"
             }
           },
           "imports": [

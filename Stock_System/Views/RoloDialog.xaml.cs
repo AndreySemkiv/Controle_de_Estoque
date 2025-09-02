@@ -1,7 +1,8 @@
-using EstoqueRolos.Models;
 using System;
 using System.Globalization;
 using System.Windows;
+using EstoqueRolos.Models;
+using static System.Runtime.CompilerServices.RuntimeHelpers;
 
 namespace EstoqueRolos.Views
 {
@@ -17,17 +18,20 @@ namespace EstoqueRolos.Views
             {
                 RoloEditado = new Rolo
                 {
-                    Id = existente.Id,
-                    IdRolo = existente.IdRolo,
+                    Code = existente.Code,
+                    Descricao = existente.Descricao,
                     Milimetragem = existente.Milimetragem,
-                    MetragemDisponivel = existente.MetragemDisponivel,
-                    WIP = existente.WIP
+                    MOQ = existente.MOQ,
+                    Estoque = existente.Estoque,
+                    MetragemWIP = existente.MetragemWIP
                 };
 
-                txtIdRolo.Text = RoloEditado.IdRolo;
+                txtCode.Text = RoloEditado.Code;
+                txtDescricao.Text = RoloEditado.Descricao;
                 txtMM.Text = RoloEditado.Milimetragem.ToString(CultureInfo.InvariantCulture);
-                txtMetragem.Text = RoloEditado.MetragemDisponivel.ToString(CultureInfo.InvariantCulture);
-                cbWip.SelectedIndex = RoloEditado.WIP == "Producao" ? 1 : 0;
+                txtMOQ.Text = RoloEditado.MOQ.ToString(CultureInfo.InvariantCulture);
+                txtEstoque.Text = RoloEditado.Estoque.ToString(CultureInfo.InvariantCulture);
+                txtWIP.Text = RoloEditado.MetragemWIP.ToString(CultureInfo.InvariantCulture);
             }
         }
 
@@ -35,21 +39,24 @@ namespace EstoqueRolos.Views
         {
             try
             {
-                if (string.IsNullOrWhiteSpace(txtIdRolo.Text))
+                if (string.IsNullOrWhiteSpace(txtCode.Text))
                 {
-                    MessageBox.Show("Informe o Id do rolo.", "Validação", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    MessageBox.Show("Informe o código do rolo.", "Validação", MessageBoxButton.OK, MessageBoxImage.Warning);
                     return;
                 }
 
-                var mm = int.Parse(txtMM.Text.Trim(), CultureInfo.InvariantCulture);
-                var met = double.Parse(txtMetragem.Text.Trim(), CultureInfo.InvariantCulture);
-                var wip = ((cbWip.SelectedItem as System.Windows.Controls.ComboBoxItem)!.Content as string)!;
+                var milimetragem = int.Parse(txtMM.Text.Trim(), CultureInfo.InvariantCulture);
+                var estoque = decimal.Parse(txtEstoque.Text.Trim(), CultureInfo.InvariantCulture);
+                var wip = decimal.Parse(txtWIP.Text.Trim(), CultureInfo.InvariantCulture);
+                var moq = decimal.Parse(txtMOQ.Text.Trim(), CultureInfo.InvariantCulture);
 
                 RoloEditado ??= new Rolo();
-                RoloEditado.IdRolo = txtIdRolo.Text.Trim();
-                RoloEditado.Milimetragem = mm;
-                RoloEditado.MetragemDisponivel = met;
-                RoloEditado.WIP = wip;
+                RoloEditado.Code = txtCode.Text.Trim();
+                RoloEditado.Descricao = txtDescricao.Text.Trim();
+                RoloEditado.Milimetragem = milimetragem;
+                RoloEditado.Estoque = estoque;
+                RoloEditado.MetragemWIP = wip;
+                RoloEditado.MOQ = moq;
 
                 DialogResult = true;
             }

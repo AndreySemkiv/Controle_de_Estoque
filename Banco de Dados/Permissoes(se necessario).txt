@@ -10,3 +10,7 @@ GRANT ALL PRIVILEGES ON estoque_rolos.* TO 'estoque_user'@'127.0.0.1';
 
 -- Atualiza permissões
 FLUSH PRIVILEGES;
+
+GRANT ALL PRIVILEGES ON estoque_rolos.* TO 'estoque_user'@'127.0.0.1' IDENTIFIED BY '12345';
+FLUSH PRIVILEGES;
+

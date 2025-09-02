@@ -43,11 +43,12 @@
                       SelectionMode="Single"
                       Margin="0,6,0,0">
                 <DataGrid.Columns>
-                    <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="60"/>
-                    <DataGridTextColumn Header="Rolo" Binding="{Binding IdRolo}" Width="150"/>
+                    <DataGridTextColumn Header="Code" Binding="{Binding Code}" Width="60"/>
+                    <DataGridTextColumn Header="Descrição" Binding="{Binding Descricao}" Width="150"/>
                     <DataGridTextColumn Header="MM" Binding="{Binding Milimetragem}" Width="100"/>
-                    <DataGridTextColumn Header="Metragem Disponível (m)" Binding="{Binding MetragemDisponivel}" Width="180"/>
-                    <DataGridTextColumn Header="WIP" Binding="{Binding WIP}" Width="130"/>
+                    <DataGridTextColumn Header="MOQ (m)" Binding="{Binding MOQ}" Width="180"/>
+                    <DataGridTextColumn Header="Estoque (m)" Binding="{Binding Estoque}" Width="130"/>
+                    <DataGridTextColumn Header="Metragem WIP" Binding="{Binding MetragemWIP}" Width="130"/>
                 </DataGrid.Columns>
             </DataGrid>
         </Grid>

@@ -1,7 +1,7 @@
 <Window x:Class="EstoqueRolos.Views.RoloDialog"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Rolo" Height="320" Width="420"
+        Title="Rolo" Height="420" Width="420"
         WindowStartupLocation="CenterOwner"
         Background="{StaticResource Bg}"
         ResizeMode="NoResize">
@@ -15,20 +15,23 @@
         <TextBlock Text="Dados do Rolo" FontSize="18" FontWeight="Bold" Foreground="{StaticResource Primary}"/>
 
         <StackPanel Grid.Row="1" Margin="0,10,0,0">
-            <Label>Id do Rolo</Label>
-            <TextBox x:Name="txtIdRolo"/>
+            <Label>Código</Label>
+            <TextBox x:Name="txtCode"/>
 
-            <Label>Milimetragem (mm)</Label>
+            <Label>Descrição</Label>
+            <TextBox x:Name="txtDescricao"/>
+
+            <Label>Milimetragem</Label>
             <TextBox x:Name="txtMM"/>
 
-            <Label>Metragem Disponível (m)</Label>
-            <TextBox x:Name="txtMetragem"/>
+            <Label>MOQ (m)</Label>
+            <TextBox x:Name="txtMOQ"/>
 
-            <Label>Status (WIP)</Label>
-            <ComboBox x:Name="cbWip">
-                <ComboBoxItem Content="Estoque" IsSelected="True"/>
-                <ComboBoxItem Content="Producao"/>
-            </ComboBox>
+            <Label>Estoque (m)</Label>
+            <TextBox x:Name="txtEstoque"/>
+
+            <Label>Metragem WIP</Label>
+            <TextBox x:Name="txtWIP"/>
         </StackPanel>
 
         <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,0,0">
