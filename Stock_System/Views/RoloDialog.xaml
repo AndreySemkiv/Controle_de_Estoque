@@ -12,7 +12,7 @@
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
-        <TextBlock Text="Dados do Rolo" FontSize="18" FontWeight="Bold" Foreground="{StaticResource Primary}"/>
+        <TextBlock Text="Dados da Bobina" FontSize="18" FontWeight="Bold" Foreground="{StaticResource Primary}"/>
 
         <StackPanel Grid.Row="1" Margin="0,10,0,0">
             <Label>Código</Label>
