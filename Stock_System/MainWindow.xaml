@@ -10,9 +10,14 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
+        <!-- Barra superior -->
         <Border Background="{StaticResource Primary}" Padding="16,12">
             <DockPanel>
-                <TextBlock Text="CONTROLE DE ESTOQUE" Foreground="White" FontSize="22" FontWeight="Bold" DockPanel.Dock="Left"/>
+                <TextBlock Text="CONTROLE DE ESTOQUE" 
+                           Foreground="White" 
+                           FontSize="22" 
+                           FontWeight="Bold" 
+                           DockPanel.Dock="Left"/>
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
                     <Button Content="Atualizar" Click="Atualizar_Click"/>
                     <Button Content="Novo Rolo" Click="Novo_Click"/>
@@ -23,32 +28,37 @@
             </DockPanel>
         </Border>
 
+        <!-- Conteúdo principal -->
         <Grid Grid.Row="1" Margin="16">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
+            <!-- Barra de busca -->
             <DockPanel Margin="0,0,0,10">
                 <TextBox x:Name="txtBusca" Width="280" />
                 <Button Content="Buscar" Click="Buscar_Click" Width="200"/>
-                <Button Content="Limpar" Background="#E5E7EB" Foreground="#111" Click="LimparBusca_Click" Width="200" HorizontalAlignment="Left"/>
+                <Button Content="Limpar" Background="#E5E7EB" Foreground="#111" 
+                        Click="LimparBusca_Click" Width="200" HorizontalAlignment="Left"/>
             </DockPanel>
 
+            <!-- DataGrid -->
             <DataGrid x:Name="dgRolos"
                       Grid.Row="1"
                       AutoGenerateColumns="False"
                       IsReadOnly="True"
                       CanUserAddRows="False"
                       SelectionMode="Single"
-                      Margin="0,6,0,0">
+                      Margin="0,6,0,0"
+                      ColumnWidth="*">
                 <DataGrid.Columns>
-                    <DataGridTextColumn Header="Code" Binding="{Binding Code}" Width="60"/>
-                    <DataGridTextColumn Header="Descrição" Binding="{Binding Descricao}" Width="150"/>
-                    <DataGridTextColumn Header="MM" Binding="{Binding Milimetragem}" Width="100"/>
-                    <DataGridTextColumn Header="MOQ (m)" Binding="{Binding MOQ}" Width="180"/>
-                    <DataGridTextColumn Header="Estoque (m)" Binding="{Binding Estoque}" Width="130"/>
-                    <DataGridTextColumn Header="Metragem WIP" Binding="{Binding MetragemWIP}" Width="130"/>
+                    <DataGridTextColumn Header="Code" Binding="{Binding Code}"/>
+                    <DataGridTextColumn Header="Descrição" Binding="{Binding Descricao}"/>
+                    <DataGridTextColumn Header="MM" Binding="{Binding Milimetragem}"/>
+                    <DataGridTextColumn Header="MOQ (m)" Binding="{Binding MOQ}"/>
+                    <DataGridTextColumn Header="Estoque (m)" Binding="{Binding Estoque}"/>
+                    <DataGridTextColumn Header="Metragem WIP" Binding="{Binding MetragemWIP}"/>
                 </DataGrid.Columns>
             </DataGrid>
         </Grid>
