@@ -1,7 +1,8 @@
+using EstoqueRolos.Models;
 using System;
 using System.Globalization;
 using System.Windows;
-using EstoqueRolos.Models;
+using System.Windows.Input;
 using static System.Runtime.CompilerServices.RuntimeHelpers;
 
 namespace EstoqueRolos.Views

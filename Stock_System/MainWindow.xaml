@@ -3,64 +3,181 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Controle de Estoque - Bobinas"
         Height="600" Width="980"
-        Background="{StaticResource Bg}" Icon="/3459929.png">
+        WindowStartupLocation="CenterScreen"
+        Background="#0D0D0D"
+        Icon="/3459929.png">
+
+    <Window.Resources>
+        <!-- Botão superior -->
+        <Style x:Key="TopBarButton" TargetType="Button">
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Background" Value="#1E3A8A"/>
+            <Setter Property="Padding" Value="12,6"/>
+            <Setter Property="Margin" Value="6,0,0,0"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="SnapsToDevicePixels" Value="True"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"
+                                              Margin="4,0,4,0"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#2563EB"/>
+                    
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        
+        <Style x:Key="DangerTopBarButton" TargetType="Button" BasedOn="{StaticResource TopBarButton}">
+            <Setter Property="Background" Value="#DC2626"/>
+           
+        </Style>
+        <Style x:Key="SuccessTopBarButton" TargetType="Button" BasedOn="{StaticResource TopBarButton}">
+            <Setter Property="Background" Value="#059669"/>
+           
+        </Style>
+
+        <!-- Botões secundários (buscar/limpar) -->
+        <Style x:Key="SecondaryButton" TargetType="Button">
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Background" Value="#374151"/>
+            <Setter Property="Padding" Value="10,5"/>
+            <Setter Property="Margin" Value="4,0,0,0"/>
+            <Setter Property="FontWeight" Value="Normal"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#4B5563"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <!-- DataGrid -->
+        <Style TargetType="{x:Type DataGrid}">
+            <Setter Property="RowHeight" Value="34"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Background" Value="#111111"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="GridLinesVisibility" Value="None"/>
+            <Setter Property="AlternatingRowBackground" Value="#1E1E1E"/>
+            <Setter Property="RowBackground" Value="#111111"/>
+            <Setter Property="BorderBrush" Value="#2563EB"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="ColumnHeaderHeight" Value="36"/>
+        </Style>
+        <Style TargetType="{x:Type DataGridColumnHeader}">
+            <Setter Property="Background" Value="#1E3A8A"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Padding" Value="8,0,8,0"/>
+        </Style>
+    </Window.Resources>
+
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
+        <!-- Container central -->
+        <Border CornerRadius="20"
+                Padding="20"
+                Margin="30"
+                Background="#1A1A1A">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="20"
+                                  ShadowDepth="0"
+                                  Opacity="0.6"
+                                  Color="#2563EB"/>
+            </Border.Effect>
 
-        <!-- Barra superior -->
-        <Border Background="{StaticResource Primary}" Padding="16,12">
-            <DockPanel>
-                <TextBlock Text="CONTROLE DE ESTOQUE" 
-                           Foreground="White" 
-                           FontSize="22" 
-                           FontWeight="Bold" 
-                           DockPanel.Dock="Left"/>
-                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-                    <Button Content="Atualizar" Click="Atualizar_Click"/>
-                    <Button Content="Novo Rolo" Click="Novo_Click"/>
-                    <Button Content="Editar Selecionado" Click="Editar_Click"/>
-                    <Button Content="Excluir Selecionado" Background="#EF4444" Click="Excluir_Click"/>
-                    <Button Content="Exportar Excel" Background="#10B981" Click="Exportar_Click"/>
-                </StackPanel>
-            </DockPanel>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <!-- Barra superior -->
+                <Border Background="#2563EB" Padding="16,12" CornerRadius="12">
+                    <DockPanel LastChildFill="False">
+                        <TextBlock Text="📦 CONTROLE DE ESTOQUE"
+                                   Foreground="White"
+                                   FontSize="22"
+                                   FontWeight="Bold"
+                                   DockPanel.Dock="Left"
+                                   VerticalAlignment="Center"/>
+
+                        <StackPanel Orientation="Horizontal" DockPanel.Dock="Right" VerticalAlignment="Center">
+                            <Button Content="Atualizar" Click="Atualizar_Click" Style="{StaticResource TopBarButton}" Margin="0"/>
+                            <Button Content="Nova Bobina" Click="Novo_Click" Style="{StaticResource TopBarButton}"/>
+                            <Button Content="Editar" Click="Editar_Click" Style="{StaticResource TopBarButton}"/>
+                            <Button Content="Excluir" Click="Excluir_Click" Style="{StaticResource DangerTopBarButton}"/>
+                            <Button Content="Exportar Excel" Click="Exportar_Click" Style="{StaticResource SuccessTopBarButton}"/>
+                        </StackPanel>
+                    </DockPanel>
+                </Border>
+
+                
+                <Grid Grid.Row="1" Margin="0,20,0,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <!-- Barra de busca -->
+                    <DockPanel Margin="0,0,0,12">
+                        <TextBox x:Name="txtBusca"
+                                 Width="280"
+                                 Margin="0,0,8,0"
+                                 Padding="8"
+                                 FontSize="14"
+                                 VerticalContentAlignment="Center"
+                                 Background="#111111"
+                                 Foreground="White"
+                                 BorderBrush="#2563EB"
+                                 BorderThickness="1"
+                                 ToolTip="Digite código ou descrição para buscar"/>
+                        <Button Content="Buscar" Click="Buscar_Click" Width="120" Style="{StaticResource SecondaryButton}" Margin="0,0,8,0"/>
+                        <Button Content="Limpar" Click="LimparBusca_Click" Width="120" Style="{StaticResource SecondaryButton}" HorizontalAlignment="Left"/>
+                    </DockPanel>
+
+                    <!-- DataGrid -->
+                    <DataGrid x:Name="dgRolos"
+                              Grid.Row="1"
+                              AutoGenerateColumns="False"
+                              IsReadOnly="True"
+                              CanUserAddRows="False"
+                              SelectionMode="Single"
+                              Margin="0,6,0,0"
+                              ColumnWidth="*"
+                              HeadersVisibility="Column">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Code" Binding="{Binding Code}" Width="100"/>
+                            <DataGridTextColumn Header="Descrição" Binding="{Binding Descricao}" Width="2*"/>
+                            <DataGridTextColumn Header="MM" Binding="{Binding Milimetragem}" Width="80"/>
+                            <DataGridTextColumn Header="MOQ (m)" Binding="{Binding MOQ}" Width="100"/>
+                            <DataGridTextColumn Header="Estoque (m)" Binding="{Binding Estoque}" Width="120"/>
+                            <DataGridTextColumn Header="Metragem WIP" Binding="{Binding MetragemWIP}" Width="140"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </Grid>
         </Border>
-
-        <!-- Conteúdo principal -->
-        <Grid Grid.Row="1" Margin="16">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="*"/>
-            </Grid.RowDefinitions>
-
-            <!-- Barra de busca -->
-            <DockPanel Margin="0,0,0,10">
-                <TextBox x:Name="txtBusca" Width="280" />
-                <Button Content="Buscar" Click="Buscar_Click" Width="200"/>
-                <Button Content="Limpar" Background="#E5E7EB" Foreground="#111" 
-                        Click="LimparBusca_Click" Width="200" HorizontalAlignment="Left"/>
-            </DockPanel>
-
-            <!-- DataGrid -->
-            <DataGrid x:Name="dgRolos"
-                      Grid.Row="1"
-                      AutoGenerateColumns="False"
-                      IsReadOnly="True"
-                      CanUserAddRows="False"
-                      SelectionMode="Single"
-                      Margin="0,6,0,0"
-                      ColumnWidth="*">
-                <DataGrid.Columns>
-                    <DataGridTextColumn Header="Code" Binding="{Binding Code}"/>
-                    <DataGridTextColumn Header="Descrição" Binding="{Binding Descricao}"/>
-                    <DataGridTextColumn Header="MM" Binding="{Binding Milimetragem}"/>
-                    <DataGridTextColumn Header="MOQ (m)" Binding="{Binding MOQ}"/>
-                    <DataGridTextColumn Header="Estoque (m)" Binding="{Binding Estoque}"/>
-                    <DataGridTextColumn Header="Metragem WIP" Binding="{Binding MetragemWIP}"/>
-                </DataGrid.Columns>
-            </DataGrid>
-        </Grid>
     </Grid>
 </Window>
