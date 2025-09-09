@@ -84,11 +84,9 @@
                            FontWeight="Bold"
                            Foreground="White"/>
 
-                <TextBlock Text="Valores Padrão"
-                           FontSize="15"
-                           Foreground="White" HorizontalAlignment="Left" Margin="52,27,0,343" Width="98" Grid.Row="1"/>
-                
-                
+
+
+
 
                 <!-- Formulário -->
                 <StackPanel Grid.Row="1" Margin="0,88,0,0">
@@ -154,9 +152,18 @@
         </Border>
 
         <Image Source="pack://application:,,,/Imagens/Bobina.png"
-       Width="520"
+       Width="617"
        HorizontalAlignment="Left"
-       Margin="178,114,0,114"/>
+       Margin="180,59,0,128"/>
+
+        <TextBlock Text="Representação"
+                           FontSize="20"
+                           FontWeight="Bold"
+                           Foreground="White" Margin="387,59,-387,308"/>
+
+        <TextBlock Text="Valores Padrão"
+                           FontSize="15"
+                           Foreground="White" HorizontalAlignment="Left" Margin="57,76,0,294" Width="98"/>
 
 
         <ComboBox Name="myComboBox" HorizontalAlignment="Right" VerticalAlignment="Top" Width="200" Height="30" Margin="0,98,472,0" SelectionChanged="myComboBox_SelectionChanged">
