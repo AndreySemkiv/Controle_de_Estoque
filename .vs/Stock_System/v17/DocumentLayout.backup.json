@@ -1,14 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ALUNO SESI SENAI\\source\\repos\\Stock_System\\",
+  "WorkspaceRootPath": "C:\\Users\\Andrey\\source\\repos\\Stock_System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ALUNO SESI SENAI\\source\\repos\\Stock_System\\Stock_System\\Views\\RoloDialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Stock_System\\Views\\RoloDialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|c:\\users\\andrey\\source\\repos\\stock_system\\stock_system\\views\\calculadorametragem.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|solutionrelative:stock_system\\views\\calculadorametragem.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ALUNO SESI SENAI\\source\\repos\\Stock_System\\Stock_System\\MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Stock_System\\MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|c:\\users\\andrey\\source\\repos\\stock_system\\stock_system\\views\\rolodialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|solutionrelative:stock_system\\views\\rolodialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|c:\\users\\andrey\\source\\repos\\stock_system\\stock_system\\views\\rolodialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|solutionrelative:stock_system\\views\\rolodialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|c:\\users\\andrey\\source\\repos\\stock_system\\stock_system\\views\\calculadorametragem.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|solutionrelative:stock_system\\views\\calculadorametragem.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|c:\\users\\andrey\\source\\repos\\stock_system\\stock_system\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|solutionrelative:stock_system\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|c:\\users\\andrey\\source\\repos\\stock_system\\stock_system\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|solutionrelative:stock_system\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|c:\\users\\andrey\\source\\repos\\stock_system\\stock_system\\models\\rolo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|solutionrelative:stock_system\\models\\rolo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|c:\\users\\andrey\\source\\repos\\stock_system\\stock_system\\data\\rolorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|solutionrelative:stock_system\\data\\rolorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -41,27 +65,108 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey\\source\\repos\\Stock_System\\Stock_System\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Stock_System\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Andrey\\source\\repos\\Stock_System\\Stock_System\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Stock_System\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T16:43:54.27Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\ALUNO SESI SENAI\\source\\repos\\Stock_System\\Stock_System\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "Stock_System\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\ALUNO SESI SENAI\\source\\repos\\Stock_System\\Stock_System\\MainWindow.xaml",
-              "RelativeToolTip": "Stock_System\\MainWindow.xaml",
+              "Title": "RoloDialog.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey\\source\\repos\\Stock_System\\Stock_System\\Views\\RoloDialog.xaml.cs",
+              "RelativeDocumentMoniker": "Stock_System\\Views\\RoloDialog.xaml.cs",
+              "ToolTip": "C:\\Users\\Andrey\\source\\repos\\Stock_System\\Stock_System\\Views\\RoloDialog.xaml.cs",
+              "RelativeToolTip": "Stock_System\\Views\\RoloDialog.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T16:43:16.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RoloDialog.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrey\\source\\repos\\Stock_System\\Stock_System\\Views\\RoloDialog.xaml",
+              "RelativeDocumentMoniker": "Stock_System\\Views\\RoloDialog.xaml",
+              "ToolTip": "C:\\Users\\Andrey\\source\\repos\\Stock_System\\Stock_System\\Views\\RoloDialog.xaml",
+              "RelativeToolTip": "Stock_System\\Views\\RoloDialog.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-09T10:47:45.565Z"
+              "WhenOpened": "2025-09-09T16:43:12.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RoloRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey\\source\\repos\\Stock_System\\Stock_System\\Data\\RoloRepository.cs",
+              "RelativeDocumentMoniker": "Stock_System\\Data\\RoloRepository.cs",
+              "ToolTip": "C:\\Users\\Andrey\\source\\repos\\Stock_System\\Stock_System\\Data\\RoloRepository.cs",
+              "RelativeToolTip": "Stock_System\\Data\\RoloRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T16:42:21.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Rolo.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey\\source\\repos\\Stock_System\\Stock_System\\Models\\Rolo.cs",
+              "RelativeDocumentMoniker": "Stock_System\\Models\\Rolo.cs",
+              "ToolTip": "C:\\Users\\Andrey\\source\\repos\\Stock_System\\Stock_System\\Models\\Rolo.cs",
+              "RelativeToolTip": "Stock_System\\Models\\Rolo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T16:42:18.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CalculadoraMetragem.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey\\source\\repos\\Stock_System\\Stock_System\\Views\\CalculadoraMetragem.xaml.cs",
+              "RelativeDocumentMoniker": "Stock_System\\Views\\CalculadoraMetragem.xaml.cs",
+              "ToolTip": "C:\\Users\\Andrey\\source\\repos\\Stock_System\\Stock_System\\Views\\CalculadoraMetragem.xaml.cs",
+              "RelativeToolTip": "Stock_System\\Views\\CalculadoraMetragem.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T16:42:03.623Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RoloDialog.xaml",
-              "DocumentMoniker": "C:\\Users\\ALUNO SESI SENAI\\source\\repos\\Stock_System\\Stock_System\\Views\\RoloDialog.xaml",
-              "RelativeDocumentMoniker": "Stock_System\\Views\\RoloDialog.xaml",
-              "ToolTip": "C:\\Users\\ALUNO SESI SENAI\\source\\repos\\Stock_System\\Stock_System\\Views\\RoloDialog.xaml",
-              "RelativeToolTip": "Stock_System\\Views\\RoloDialog.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "CalculadoraMetragem.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrey\\Source\\Repos\\Stock_System\\Stock_System\\Views\\CalculadoraMetragem.xaml",
+              "RelativeDocumentMoniker": "Stock_System\\Views\\CalculadoraMetragem.xaml",
+              "ToolTip": "C:\\Users\\Andrey\\Source\\Repos\\Stock_System\\Stock_System\\Views\\CalculadoraMetragem.xaml",
+              "RelativeToolTip": "Stock_System\\Views\\CalculadoraMetragem.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-09T10:54:06.812Z",
+              "WhenOpened": "2025-09-09T16:41:58.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrey\\source\\repos\\Stock_System\\Stock_System\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Stock_System\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Andrey\\source\\repos\\Stock_System\\Stock_System\\MainWindow.xaml",
+              "RelativeToolTip": "Stock_System\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-09T10:47:45.565Z",
               "EditorCaption": ""
             }
           ]

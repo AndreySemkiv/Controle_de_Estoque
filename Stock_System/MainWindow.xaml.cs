@@ -138,6 +138,7 @@ namespace EstoqueRolos
             }
         }
 
+
         private void Buscar_Click(object sender, RoutedEventArgs e)
         {
             var termo = txtBusca.Text?.Trim();
@@ -156,6 +157,15 @@ namespace EstoqueRolos
             txtBusca.Text = string.Empty;
             dgRolos.ItemsSource = _dados;
             await CarregarAsync();
+        }
+
+        private void Calcular_Click(object sender, RoutedEventArgs e)
+        {
+            var dlg = new CalculadoraMetragem
+            {
+                Owner = this
+            };
+            dlg.ShowDialog();
         }
     }
 }

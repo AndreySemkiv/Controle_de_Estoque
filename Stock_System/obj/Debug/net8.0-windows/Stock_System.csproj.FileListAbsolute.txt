@@ -176,3 +176,5 @@ C:\Users\ALUNO SESI SENAI\Source\Repos\Stock_System\Stock_System\obj\Debug\net8.
 C:\Users\ALUNO SESI SENAI\Source\Repos\Stock_System\Stock_System\obj\Debug\net8.0-windows\ref\Stock_System.dll
 C:\Users\ALUNO SESI SENAI\Source\Repos\Stock_System\Stock_System\obj\Debug\net8.0-windows\Views\RoloDialog - Cópia.baml
 C:\Users\ALUNO SESI SENAI\Source\Repos\Stock_System\Stock_System\obj\Debug\net8.0-windows\Views\RoloDialog - Cópia.g.cs
+C:\Users\Andrey\Source\Repos\Stock_System\Stock_System\obj\Debug\net8.0-windows\Views\CalculadoraMetragem.baml
+C:\Users\Andrey\Source\Repos\Stock_System\Stock_System\obj\Debug\net8.0-windows\Views\CalculadoraMetragem.g.cs
