@@ -88,7 +88,6 @@
 
                 <TextBlock Text="Milimetragem Padrão"
                            FontSize="15"
-                           FontWeight="Bold"
                            Foreground="White" HorizontalAlignment="Left" Margin="29,36,0,336" Width="155" Grid.Row="1"/>
 
                 <!-- Formulário -->
@@ -96,12 +95,12 @@
 
                     <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="0,0,0,12">
                         <StackPanel Orientation="Vertical" Margin="0,0,10,0">
-                            <Label Content="R" Foreground="White" HorizontalAlignment="Center"/>
+                            <Label Content="R" Foreground="White" HorizontalAlignment="Center" FontWeight="Bold"/>
                             <TextBox x:Name="txtR" Width="90" HorizontalAlignment="Center"/>
                         </StackPanel>
 
                         <StackPanel Orientation="Vertical">
-                            <Label Content="r" Foreground="White" HorizontalAlignment="Center"/>
+                            <Label Content="r" Foreground="White" HorizontalAlignment="Center" FontWeight="Bold"/>
                             <TextBox x:Name="txtr" Width="90" HorizontalAlignment="Center"/>
                         </StackPanel>
                     </StackPanel>
@@ -109,19 +108,19 @@
 
                     <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="0,0,0,12">
                         <StackPanel Orientation="Vertical" Margin="0,0,10,0">
-                            <Label Content="E0" Foreground="White" HorizontalAlignment="Center"/>
+                            <Label Content="E0" Foreground="White" HorizontalAlignment="Center" FontWeight="Bold"/>
                             <TextBox x:Name="txtE0" Width="90" HorizontalAlignment="Center"/>
                         </StackPanel>
 
                         <StackPanel Orientation="Vertical">
-                            <Label Content="E" Foreground="White" HorizontalAlignment="Center"/>
+                            <Label Content="E" Foreground="White" HorizontalAlignment="Center" FontWeight="Bold"/>
                             <TextBox x:Name="txtE" Width="90" HorizontalAlignment="Center"/>
                         </StackPanel>
                     </StackPanel>
 
 
                     <StackPanel Orientation="Vertical" HorizontalAlignment="Left" Margin="50,0,0,12">
-                        <Label Content="M (máx)" Foreground="White" Width="52"/>
+                        <Label Content="M (máx)" Foreground="White" Width="57" FontWeight="Bold"/>
                         <TextBox x:Name="txtMmax" Width="90" HorizontalAlignment="Left"/>
                     </StackPanel>
                     
