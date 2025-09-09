@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <None Remove="3459929.png" />
+    <None Remove="Bobina.png" />
   </ItemGroup>
 
   <ItemGroup>

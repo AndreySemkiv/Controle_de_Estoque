@@ -20,7 +20,7 @@
             <Setter Property="Height" Value="32"/>
         </Style>
 
-        
+        <!-- Botão primário -->
         <Style x:Key="PrimaryButton" TargetType="Button">
             <Setter Property="Foreground" Value="White"/>
             <Setter Property="Background" Value="#2563EB"/>
@@ -49,7 +49,7 @@
             </Style.Triggers>
         </Style>
 
-       
+        <!-- Botão secundário -->
         <Style x:Key="SecondaryButton" TargetType="Button" BasedOn="{StaticResource PrimaryButton}">
             <Setter Property="Background" Value="#374151"/>
             <Setter Property="Foreground" Value="White"/>
@@ -79,19 +79,19 @@
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
 
-               
                 <TextBlock Text="📱 Calcular Metragem"
                            FontSize="20"
                            FontWeight="Bold"
                            Foreground="White"/>
 
-
                 <TextBlock Text="Valores Padrão"
                            FontSize="15"
-                           Foreground="White" HorizontalAlignment="Left" Margin="50,36,0,336" Width="98" Grid.Row="1"/>
+                           Foreground="White" HorizontalAlignment="Left" Margin="52,27,0,343" Width="98" Grid.Row="1"/>
+                
+                
 
                 <!-- Formulário -->
-                <StackPanel Grid.Row="1" Margin="0,100,0,0">
+                <StackPanel Grid.Row="1" Margin="0,88,0,0">
 
                     <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="0,0,0,12">
                         <StackPanel Orientation="Vertical" Margin="0,0,10,0">
@@ -105,7 +105,6 @@
                         </StackPanel>
                     </StackPanel>
 
-
                     <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="0,0,0,12">
                         <StackPanel Orientation="Vertical" Margin="0,0,10,0">
                             <Label Content="E0" Foreground="White" HorizontalAlignment="Center" FontWeight="Bold"/>
@@ -118,31 +117,29 @@
                         </StackPanel>
                     </StackPanel>
 
-
                     <StackPanel Orientation="Vertical" HorizontalAlignment="Left" Margin="50,0,0,12">
                         <Label Content="M (máx)" Foreground="White" Width="57" FontWeight="Bold"/>
                         <TextBox x:Name="txtMmax" Width="90" HorizontalAlignment="Left" PreviewTextInput="NumberValidationTextBox"/>
                     </StackPanel>
 
+                    <!-- Botões + Resultado lado a lado -->
                     <StackPanel Grid.Row="2"
-                            Orientation="Horizontal"
-                            HorizontalAlignment="Left"
-                            Margin="43,5,0,0">
-                        <Button Content="Calcular"
-                            Click="Calcular_Click"
-                            Style="{StaticResource PrimaryButton}"/>
-                    </StackPanel>
+                                Orientation="Horizontal"
+                                HorizontalAlignment="Left"
+                                Margin="43,5,0,0">
 
-                    <!-- Resultado -->
-                    <StackPanel Orientation="Horizontal" Margin="43,20,0,0">
-                        <TextBox x:Name="txtResultado" Width="150" IsReadOnly="True"/>
-                        <Button Content="Copiar" Click="Copiar_Click" Style="{StaticResource SecondaryButton}" Margin="10,0,0,0"/>
+                        <Button Content="Calcular"
+                                Click="Calcular_Click"
+                                Style="{StaticResource PrimaryButton}"
+                                Margin="0,0,10,0" Width="100" Height="32"/>
+                        <TextBox x:Name="txtResultado" Width="150" IsReadOnly="True" Margin="50,0,10,0"/>
+                        <Button Content="Copiar" Click="Copiar_Click" Style="{StaticResource SecondaryButton}"/>
                     </StackPanel>
 
                 </StackPanel>
 
 
-                <!-- Botões -->
+                <!-- Botão Cancelar -->
                 <StackPanel Grid.Row="2"
                             Orientation="Horizontal"
                             HorizontalAlignment="Right"
@@ -156,12 +153,14 @@
             </Grid>
         </Border>
 
-        
-        <Image Source="/Bobina Representação.png." Width="366" Height="200" HorizontalAlignment="Right"/>
+        <Image Source="pack://application:,,,/Imagens/Bobina.png"
+       Width="520"
+       HorizontalAlignment="Left"
+       Margin="178,114,0,114"/>
 
-        
-        <ComboBox Name="myComboBox" HorizontalAlignment="Right" VerticalAlignment="Top" Width="200" Height="30" Margin="0,107,469,0" SelectionChanged="myComboBox_SelectionChanged">
-            <ComboBoxItem Content="" />
+
+        <ComboBox Name="myComboBox" HorizontalAlignment="Right" VerticalAlignment="Top" Width="200" Height="30" Margin="0,98,472,0" SelectionChanged="myComboBox_SelectionChanged">
+            <ComboBoxItem Content="Vazio/Nenhum Selecionado" />
             <ComboBoxItem Content="Bobina de 200mm" />
             <ComboBoxItem Content="Bobina de 250mm" />
             <ComboBoxItem Content="Bobina de 355mm" />
