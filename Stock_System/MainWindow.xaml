@@ -126,6 +126,7 @@
                         <StackPanel Orientation="Horizontal" DockPanel.Dock="Right" VerticalAlignment="Center">
                             <Button Content="Atualizar" Click="Atualizar_Click" Style="{StaticResource TopBarButton}" Margin="0"/>
                             <Button Content="Nova Bobina" Click="Novo_Click" Style="{StaticResource TopBarButton}"/>
+                            <Button Content="Calcular Metragem" Click="Novo_Click" Style="{StaticResource TopBarButton}"/>
                             <Button Content="Editar" Click="Editar_Click" Style="{StaticResource TopBarButton}"/>
                             <Button Content="Excluir" Click="Excluir_Click" Style="{StaticResource DangerTopBarButton}"/>
                             <Button Content="Exportar Excel" Click="Exportar_Click" Style="{StaticResource SuccessTopBarButton}"/>
