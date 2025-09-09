@@ -128,7 +128,7 @@
                     <StackPanel Grid.Row="2"
                             Orientation="Horizontal"
                             HorizontalAlignment="Left"
-                            Margin="10,5,0,0">
+                            Margin="43,5,0,0">
                         <Button Content="Calcular"
                             Click="Calcular_Click"
                             Style="{StaticResource PrimaryButton}"/>
@@ -153,9 +153,11 @@
         </Border>
         <Image Source="/Bobina Representação.png." Width="366" Height="200" HorizontalAlignment="Right"/>
         <ComboBox Name="myComboBox" HorizontalAlignment="Right" VerticalAlignment="Top" Width="200" Height="30" Margin="0,107,469,0">
-            <ComboBoxItem Content="Opção 1" />
-            <ComboBoxItem Content="Opção 2" />
-            <ComboBoxItem Content="Opção 3" />
+            <ComboBoxItem Content="80mm" />
+            <ComboBoxItem Content="100mm" />
+            <ComboBoxItem Content="125mm" />
+            <ComboBoxItem Content="160mm" />
+            <ComboBoxItem Content="225mm" />
 
         </ComboBox>
 
