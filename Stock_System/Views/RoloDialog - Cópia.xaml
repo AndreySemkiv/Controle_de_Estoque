@@ -1,7 +1,7 @@
 <Window x:Class="EstoqueRolos.Views.RoloDialog"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Dados da Bobina"
+        Title="Calcular Metragem Disponível"
         Height="560" Width="742"
         WindowStartupLocation="CenterOwner"
         Background="#0D0D0D"
@@ -85,39 +85,80 @@
                            FontWeight="Bold"
                            Foreground="White"/>
 
+
+                <TextBlock Text="Milimetragem Padrão"
+                           FontSize="15"
+                           FontWeight="Bold"
+                           Foreground="White" HorizontalAlignment="Left" Margin="29,36,0,336" Width="155" Grid.Row="1"/>
+
                 <!-- Formulário -->
-                <StackPanel Grid.Row="1" Margin="0,20,0,0">
-                    <Label Content="R" Foreground="White" Width="18" HorizontalAlignment="Left"/>
-                    <TextBox x:Name="txtCode" Width="90" HorizontalAlignment="Left"/>
+                <StackPanel Grid.Row="1" Margin="0,100,0,0">
 
-                    <Label Content="r" Foreground="White" Width="18" HorizontalAlignment="Left"/>
-                    <TextBox x:Name="txtDescricao" Width="90" HorizontalAlignment="Left"/>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="0,0,0,12">
+                        <StackPanel Orientation="Vertical" Margin="0,0,10,0">
+                            <Label Content="R" Foreground="White" HorizontalAlignment="Center"/>
+                            <TextBox x:Name="txtR" Width="90" HorizontalAlignment="Center"/>
+                        </StackPanel>
 
-                    <Label Content="E0" Foreground="White" Width="25" HorizontalAlignment="Left"/>
-                    <TextBox x:Name="txtMM" Width="90" HorizontalAlignment="Left"/>
+                        <StackPanel Orientation="Vertical">
+                            <Label Content="r" Foreground="White" HorizontalAlignment="Center"/>
+                            <TextBox x:Name="txtr" Width="90" HorizontalAlignment="Center"/>
+                        </StackPanel>
+                    </StackPanel>
 
-                    <Label Content="E" Foreground="White" Width="18" HorizontalAlignment="Left"/>
-                    <TextBox x:Name="txtMOQ" Width="90" HorizontalAlignment="Left"/>
 
-                    <Label Content="M (máx)" Foreground="White" Width="52" HorizontalAlignment="Left"/>
-                    <TextBox x:Name="txtEstoque" Width="90" HorizontalAlignment="Left"/>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="0,0,0,12">
+                        <StackPanel Orientation="Vertical" Margin="0,0,10,0">
+                            <Label Content="E0" Foreground="White" HorizontalAlignment="Center"/>
+                            <TextBox x:Name="txtE0" Width="90" HorizontalAlignment="Center"/>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Vertical">
+                            <Label Content="E" Foreground="White" HorizontalAlignment="Center"/>
+                            <TextBox x:Name="txtE" Width="90" HorizontalAlignment="Center"/>
+                        </StackPanel>
+                    </StackPanel>
+
+
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Left" Margin="50,0,0,12">
+                        <Label Content="M (máx)" Foreground="White" Width="52"/>
+                        <TextBox x:Name="txtMmax" Width="90" HorizontalAlignment="Left"/>
+                    </StackPanel>
+                    
+                    <StackPanel Grid.Row="2"
+                            Orientation="Horizontal"
+                            HorizontalAlignment="Left"
+                            Margin="10,5,0,0">
+                        <Button Content="Calcular"
+                            Click="Calcular_Click"
+                            Style="{StaticResource PrimaryButton}"/>
+                    </StackPanel>
+                    
                     
                 </StackPanel>
+                
 
                 <!-- Botões -->
                 <StackPanel Grid.Row="2"
                             Orientation="Horizontal"
                             HorizontalAlignment="Right"
                             Margin="0,20,0,0">
-                    <Button Content="Salvar"
-                            Click="Salvar_Click"
-                            Style="{StaticResource PrimaryButton}"/>
                     <Button Content="Cancelar"
                             Click="Cancelar_Click"
                             Style="{StaticResource SecondaryButton}"
                             Margin="10,0,0,0"/>
                 </StackPanel>
+
             </Grid>
         </Border>
+        <Image Source="/Bobina Representação.png." Width="366" Height="200" HorizontalAlignment="Right"/>
+        <ComboBox Name="myComboBox" HorizontalAlignment="Right" VerticalAlignment="Top" Width="200" Height="30" Margin="0,107,469,0">
+            <ComboBoxItem Content="Opção 1" />
+            <ComboBoxItem Content="Opção 2" />
+            <ComboBoxItem Content="Opção 3" />
+
+        </ComboBox>
+
     </Grid>
+
 </Window>
