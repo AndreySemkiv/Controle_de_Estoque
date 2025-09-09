@@ -86,9 +86,9 @@
                            Foreground="White"/>
 
 
-                <TextBlock Text="Milimetragem Padrão"
+                <TextBlock Text="Valores Padrão"
                            FontSize="15"
-                           Foreground="White" HorizontalAlignment="Left" Margin="29,36,0,336" Width="155" Grid.Row="1"/>
+                           Foreground="White" HorizontalAlignment="Left" Margin="50,36,0,336" Width="98" Grid.Row="1"/>
 
                 <!-- Formulário -->
                 <StackPanel Grid.Row="1" Margin="0,100,0,0">
@@ -152,11 +152,11 @@
         </Border>
         <Image Source="/Bobina Representação.png." Width="366" Height="200" HorizontalAlignment="Right"/>
         <ComboBox Name="myComboBox" HorizontalAlignment="Right" VerticalAlignment="Top" Width="200" Height="30" Margin="0,107,469,0">
-            <ComboBoxItem Content="80mm" />
-            <ComboBoxItem Content="100mm" />
-            <ComboBoxItem Content="125mm" />
-            <ComboBoxItem Content="160mm" />
-            <ComboBoxItem Content="225mm" />
+            <ComboBoxItem Content="Bobina de 80mm" />
+            <ComboBoxItem Content="Bobina de 100mm" />
+            <ComboBoxItem Content="Bobina de 125mm" />
+            <ComboBoxItem Content="Bobina de 160mm" />
+            <ComboBoxItem Content="Bobina de 225mm" />
 
         </ComboBox>
 
