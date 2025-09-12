@@ -87,21 +87,21 @@ namespace EstoqueRolos.Views
                 switch (item.Content.ToString())
                 {
                     case "Bobina de 200mm":
-                        txtR.Text = "100";
-                        txtr.Text = "62,5";
+                        txtR.Text = "10,0";
+                        txtr.Text = "6,25";
                         txtE0.Text = "0,5";
                         txtMmax.Text = "4200";
                         break;
                     case "Bobina de 250mm":
-                        txtR.Text = "125";
-                        txtr.Text = "80";
-                        txtE0.Text = "0,7";
+                        txtR.Text = "12,5";
+                        txtr.Text = "8,0";
+                        txtE0.Text = "0,5";
                         txtMmax.Text = "4200";
                         break;
                     case "Bobina de 355mm":
-                        txtR.Text = "177,5";
-                        txtr.Text = "112,5";
-                        txtE0.Text = "0,9";
+                        txtR.Text = "17,75";
+                        txtr.Text = "11,25";
+                        txtE0.Text = "0,5";
                         txtMmax.Text = "4200";
                         break;
                     default:

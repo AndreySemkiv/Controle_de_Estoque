@@ -47,9 +47,9 @@ namespace EstoqueRolos.Views
                 }
 
                 var milimetragem = int.Parse(txtMM.Text.Trim(), CultureInfo.InvariantCulture);
-                var estoque = decimal.Parse(txtEstoque.Text.Trim(), CultureInfo.InvariantCulture);
-                var wip = decimal.Parse(txtWIP.Text.Trim(), CultureInfo.InvariantCulture);
-                var moq = decimal.Parse(txtMOQ.Text.Trim(), CultureInfo.InvariantCulture);
+                var estoque = int.Parse(txtEstoque.Text.Trim(), CultureInfo.InvariantCulture);
+                var wip = int.Parse(txtWIP.Text.Trim(), CultureInfo.InvariantCulture);
+                var moq = int.Parse(txtMOQ.Text.Trim(), CultureInfo.InvariantCulture);
 
                 RoloEditado ??= new Rolo();
                 RoloEditado.Code = txtCode.Text.Trim();

@@ -110,13 +110,13 @@
                         </StackPanel>
 
                         <StackPanel Orientation="Vertical">
-                            <Label Content="E" Foreground="White" HorizontalAlignment="Center" FontWeight="Bold"/>
+                            <Label Content="Profundidade" Foreground="White" HorizontalAlignment="Center" FontWeight="Bold"/>
                             <TextBox x:Name="txtE" Width="90" HorizontalAlignment="Center" PreviewTextInput="NumberValidationTextBox"/>
                         </StackPanel>
                     </StackPanel>
 
                     <StackPanel Orientation="Vertical" HorizontalAlignment="Left" Margin="50,0,0,12">
-                        <Label Content="M (máx)" Foreground="White" Width="57" FontWeight="Bold"/>
+                        <Label Content="Standard Pack" Foreground="White" Width="92" FontWeight="Bold"/>
                         <TextBox x:Name="txtMmax" Width="90" HorizontalAlignment="Left" PreviewTextInput="NumberValidationTextBox"/>
                     </StackPanel>
 
@@ -151,15 +151,15 @@
             </Grid>
         </Border>
 
-        <Image Source="pack://application:,,,/Imagens/Bobina.png"
-       Width="617"
+        <Image Source="/Imagens/Bobina.png"
+       Width="346"
        HorizontalAlignment="Left"
-       Margin="180,59,0,128"/>
+       Margin="289,115,0,154"/>
 
         <TextBlock Text="Representação"
                            FontSize="20"
                            FontWeight="Bold"
-                           Foreground="White" Margin="387,59,-387,308"/>
+                           Foreground="White" Margin="374,82,-374,285"/>
 
         <TextBlock Text="Valores Padrão"
                            FontSize="15"

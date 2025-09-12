@@ -7,9 +7,10 @@ USE estoque_rolos;
 CREATE TABLE IF NOT EXISTS rolos (
   Code VARCHAR(30) PRIMARY KEY,
   Descricao VARCHAR(50) NOT NULL,
-  Milimetragem INT NOT NULL,
-  MOQ DECIMAL(10, 3) NOT NULL,
-  Estoque DECIMAL(10, 3) NOT NULL,
-  MetragemWIP DECIMAL(10, 3) NOT NULL
+  Milimetragem DECIMAL(6,2) NOT NULL, 
+  MOQ INT NOT NULL,                   
+  Estoque INT NOT NULL,               
+  MetragemWIP INT NOT NULL           
 );
+
 

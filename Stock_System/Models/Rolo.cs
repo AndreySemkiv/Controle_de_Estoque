@@ -4,10 +4,10 @@ namespace EstoqueRolos.Models
     {
         public string Code { get; set; } = string.Empty;      
         public string Descricao { get; set; } = string.Empty;
-        public int Milimetragem { get; set; }
-        public decimal MOQ { get; set; }
-        public decimal Estoque { get; set; }
-        public decimal MetragemWIP { get; set; }
+        public decimal Milimetragem { get; set; }
+        public int MOQ { get; set; }
+        public int Estoque { get; set; }
+        public int MetragemWIP { get; set; }
     }
 }
 
