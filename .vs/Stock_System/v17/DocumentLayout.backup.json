@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Kelly\\source\\repos\\Stock_System\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|c:\\users\\kelly\\source\\repos\\stock_system\\stock_system\\views\\calculadorametragem.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|solutionrelative:stock_system\\views\\calculadorametragem.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|c:\\users\\kelly\\source\\repos\\stock_system\\stock_system\\views\\calculadorametragem.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|solutionrelative:stock_system\\views\\calculadorametragem.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
@@ -39,6 +43,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CalculadoraMetragem.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Kelly\\source\\repos\\Stock_System\\Stock_System\\Views\\CalculadoraMetragem.xaml.cs",
+              "RelativeDocumentMoniker": "Stock_System\\Views\\CalculadoraMetragem.xaml.cs",
+              "ToolTip": "C:\\Users\\Kelly\\source\\repos\\Stock_System\\Stock_System\\Views\\CalculadoraMetragem.xaml.cs",
+              "RelativeToolTip": "Stock_System\\Views\\CalculadoraMetragem.xaml.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAswGYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T18:54:06.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CalculadoraMetragem.xaml",
               "DocumentMoniker": "C:\\Users\\Kelly\\source\\repos\\Stock_System\\Stock_System\\Views\\CalculadoraMetragem.xaml",
               "RelativeDocumentMoniker": "Stock_System\\Views\\CalculadoraMetragem.xaml",
