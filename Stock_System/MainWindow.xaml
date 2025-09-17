@@ -172,7 +172,7 @@
                             <DataGridTextColumn Header="Code" Binding="{Binding Code}" Width="100"/>
                             <DataGridTextColumn Header="Descrição" Binding="{Binding Descricao}" Width="2*"/>
                             <DataGridTextColumn Header="MM" Binding="{Binding Milimetragem}" Width="80"/>
-                            <DataGridTextColumn Header="MOQ (m)" Binding="{Binding MOQ}" Width="100"/>
+                            <DataGridTextColumn Header="Standard Pack" Binding="{Binding MOQ}" Width="112"/>
                             <DataGridTextColumn Header="Estoque (m)" Binding="{Binding Estoque}" Width="120"/>
                             <DataGridTextColumn Header="Metragem WIP" Binding="{Binding MetragemWIP}" Width="140"/>
                         </DataGrid.Columns>
