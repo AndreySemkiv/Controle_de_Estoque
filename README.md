@@ -40,12 +40,18 @@ O projeto foi criado para automatizar e simplificar o controle de entrada, saíd
 
 ---
 
-## ⚙️ Como Executar o Projeto
+## Pré-requisitos
 
-### Pré-requisitos:
 - [.NET 6 SDK ou superior](https://dotnet.microsoft.com/download)
 - Windows 10 ou superior
 
+---
+
+## Autor
+
+### Andrey Semkiv
+- 📧 Contato: andreysemkivrocha@gmail.com
+- 🔗 GitHub: https://github.com/AndreySemkiv
 
 
 
