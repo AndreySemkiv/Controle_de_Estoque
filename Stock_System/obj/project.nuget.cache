@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a8wAwGE0OUU=",
+  "dgSpecHash": "9is9CDgV+l0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Andrey\\source\\repos\\Stock_System\\Stock_System\\Stock_System.csproj",
+  "projectFilePath": "C:\\Users\\Andrey\\Source\\Repos\\Controle_de_Estoque\\Stock_System\\Stock_System.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Andrey\\.nuget\\packages\\bouncycastle.cryptography\\2.5.1\\bouncycastle.cryptography.2.5.1.nupkg.sha512",
     "C:\\Users\\Andrey\\.nuget\\packages\\closedxml\\0.105.0\\closedxml.0.105.0.nupkg.sha512",
@@ -64,9 +64,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "O pacote 'MySQLConnection 1.0.1' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0-windows7.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
-      "projectPath": "C:\\Users\\Andrey\\source\\repos\\Stock_System\\Stock_System\\Stock_System.csproj",
+      "projectPath": "C:\\Users\\Andrey\\Source\\Repos\\Controle_de_Estoque\\Stock_System\\Stock_System.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\Andrey\\source\\repos\\Stock_System\\Stock_System\\Stock_System.csproj",
+      "filePath": "C:\\Users\\Andrey\\Source\\Repos\\Controle_de_Estoque\\Stock_System\\Stock_System.csproj",
       "libraryId": "MySQLConnection",
       "targetGraphs": [
         "net8.0-windows7.0"

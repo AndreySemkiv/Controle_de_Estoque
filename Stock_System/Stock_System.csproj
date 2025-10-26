@@ -13,6 +13,7 @@
     <None Remove="Bobina.png" />
     <None Remove="Imagens\Bobina.png" />
     <None Remove="Logo.png" />
+    <None Remove="Views\Logo.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -32,6 +33,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Logo.png" />
+    <Resource Include="Views\Logo.png" />
   </ItemGroup>
 
   <ItemGroup>
