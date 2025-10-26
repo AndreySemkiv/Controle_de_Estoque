@@ -1,4 +1,4 @@
-# 🧾 EstoqueRolos — Sistema de Controle de Estoque de Bobinas
+# Sistema de Controle de Estoque de Bobinas
 
 Sistema desktop desenvolvido em **C# (WPF)** com **SQLite**, voltado para o **gerenciamento de estoque de bobinas e rolos industriais**.  
 O projeto foi criado para automatizar e simplificar o controle de entrada, saída e cálculo de metragem das bobinas, substituindo o processo manual sujeito a erros humanos.
@@ -27,7 +27,7 @@ O projeto foi criado para automatizar e simplificar o controle de entrada, saíd
 
 ---
 
-## 🧰 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 | Categoria | Tecnologia |
 |------------|-------------|
