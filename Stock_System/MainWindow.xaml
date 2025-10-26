@@ -1,11 +1,11 @@
-<Window x:Class="EstoqueRolos.MainWindow"
+<Window Closing="Window_Closing" x:Class="EstoqueRolos.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Controle de Estoque - Bobinas"
-        Height="600" Width="980"
+        Height="600" Width="1038"
         WindowStartupLocation="CenterScreen"
         Background="#0D0D0D"
-        Icon="/3459929.png">
+        Icon="/Logo.png">
 
     <Window.Resources>
         <!-- Botão superior -->
@@ -95,6 +95,7 @@
     </Window.Resources>
 
     <Grid>
+
         <!-- Container central -->
         <Border CornerRadius="20"
                 Padding="20"
@@ -115,7 +116,7 @@
 
                 <!-- Barra superior -->
                 <Border Background="#2563EB" Padding="16,12" CornerRadius="12">
-                    <DockPanel LastChildFill="False">
+                    <DockPanel LastChildFill="False" Cursor="">
                         <TextBlock Text="📦 CONTROLE DE ESTOQUE"
                                    Foreground="White"
                                    FontSize="22"
@@ -130,6 +131,7 @@
                             <Button Content="Editar" Click="Editar_Click" Style="{StaticResource TopBarButton}"/>
                             <Button Content="Excluir" Click="Excluir_Click" Style="{StaticResource DangerTopBarButton}"/>
                             <Button Content="Exportar Excel" Click="Exportar_Click" Style="{StaticResource SuccessTopBarButton}"/>
+                            <Button Content="Carregar Banco" Click="MenuCarregarBanco_Click" Style="{StaticResource SuccessTopBarButton}" Background="#FFC5A200"/>
                         </StackPanel>
                     </DockPanel>
                 </Border>

@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Kelly\\source\\repos\\Stock_System\\",
+  "WorkspaceRootPath": "C:\\Users\\Andrey\\source\\repos\\Stock_System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|c:\\users\\kelly\\source\\repos\\stock_system\\stock_system\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|c:\\users\\andrey\\source\\repos\\stock_system\\stock_system\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|solutionrelative:stock_system\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|c:\\users\\kelly\\source\\repos\\stock_system\\stock_system\\views\\calculadorametragem.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|c:\\users\\andrey\\source\\repos\\stock_system\\stock_system\\views\\calculadorametragem.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|solutionrelative:stock_system\\views\\calculadorametragem.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|c:\\users\\kelly\\source\\repos\\stock_system\\stock_system\\views\\calculadorametragem.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|c:\\users\\andrey\\source\\repos\\stock_system\\stock_system\\views\\calculadorametragem.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|solutionrelative:stock_system\\views\\calculadorametragem.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|c:\\users\\kelly\\source\\repos\\stock_system\\stock_system\\views\\rolodialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|solutionrelative:stock_system\\views\\rolodialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|c:\\users\\andrey\\source\\repos\\stock_system\\stock_system\\models\\rolo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|solutionrelative:stock_system\\models\\rolo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|c:\\users\\kelly\\source\\repos\\stock_system\\stock_system\\models\\rolo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|solutionrelative:stock_system\\models\\rolo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|c:\\users\\andrey\\source\\repos\\stock_system\\stock_system\\views\\rolodialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|solutionrelative:stock_system\\views\\rolodialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,37 +30,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 10,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CalculadoraMetragem.xaml",
-              "DocumentMoniker": "C:\\Users\\Kelly\\source\\repos\\Stock_System\\Stock_System\\Views\\CalculadoraMetragem.xaml",
-              "RelativeDocumentMoniker": "Stock_System\\Views\\CalculadoraMetragem.xaml",
-              "ToolTip": "C:\\Users\\Kelly\\source\\repos\\Stock_System\\Stock_System\\Views\\CalculadoraMetragem.xaml",
-              "RelativeToolTip": "Stock_System\\Views\\CalculadoraMetragem.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-17T18:38:12.034Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CalculadoraMetragem.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Kelly\\source\\repos\\Stock_System\\Stock_System\\Views\\CalculadoraMetragem.xaml.cs",
-              "RelativeDocumentMoniker": "Stock_System\\Views\\CalculadoraMetragem.xaml.cs",
-              "ToolTip": "C:\\Users\\Kelly\\source\\repos\\Stock_System\\Stock_System\\Views\\CalculadoraMetragem.xaml.cs",
-              "RelativeToolTip": "Stock_System\\Views\\CalculadoraMetragem.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T18:35:34.007Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
@@ -78,38 +49,67 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Rolo.cs",
-              "DocumentMoniker": "C:\\Users\\Kelly\\source\\repos\\Stock_System\\Stock_System\\Models\\Rolo.cs",
-              "RelativeDocumentMoniker": "Stock_System\\Models\\Rolo.cs",
-              "ToolTip": "C:\\Users\\Kelly\\source\\repos\\Stock_System\\Stock_System\\Models\\Rolo.cs",
-              "RelativeToolTip": "Stock_System\\Models\\Rolo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAzAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "CalculadoraMetragem.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrey\\source\\repos\\Stock_System\\Stock_System\\Views\\CalculadoraMetragem.xaml",
+              "RelativeDocumentMoniker": "Stock_System\\Views\\CalculadoraMetragem.xaml",
+              "ToolTip": "C:\\Users\\Andrey\\source\\repos\\Stock_System\\Stock_System\\Views\\CalculadoraMetragem.xaml",
+              "RelativeToolTip": "Stock_System\\Views\\CalculadoraMetragem.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-17T18:38:12.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CalculadoraMetragem.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey\\source\\repos\\Stock_System\\Stock_System\\Views\\CalculadoraMetragem.xaml.cs",
+              "RelativeDocumentMoniker": "Stock_System\\Views\\CalculadoraMetragem.xaml.cs",
+              "ToolTip": "C:\\Users\\Andrey\\source\\repos\\Stock_System\\Stock_System\\Views\\CalculadoraMetragem.xaml.cs",
+              "RelativeToolTip": "Stock_System\\Views\\CalculadoraMetragem.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T18:35:18.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T18:35:34.007Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Rolo.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey\\source\\repos\\Stock_System\\Stock_System\\Models\\Rolo.cs",
+              "RelativeDocumentMoniker": "Stock_System\\Models\\Rolo.cs",
+              "ToolTip": "C:\\Users\\Andrey\\source\\repos\\Stock_System\\Stock_System\\Models\\Rolo.cs",
+              "RelativeToolTip": "Stock_System\\Models\\Rolo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T18:35:18.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "RoloDialog.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Kelly\\source\\repos\\Stock_System\\Stock_System\\Views\\RoloDialog.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey\\source\\repos\\Stock_System\\Stock_System\\Views\\RoloDialog.xaml.cs",
               "RelativeDocumentMoniker": "Stock_System\\Views\\RoloDialog.xaml.cs",
-              "ToolTip": "C:\\Users\\Kelly\\source\\repos\\Stock_System\\Stock_System\\Views\\RoloDialog.xaml.cs",
+              "ToolTip": "C:\\Users\\Andrey\\source\\repos\\Stock_System\\Stock_System\\Views\\RoloDialog.xaml.cs",
               "RelativeToolTip": "Stock_System\\Views\\RoloDialog.xaml.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAAADUAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T18:34:21.714Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T18:34:21.714Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Kelly\\source\\repos\\Stock_System\\Stock_System\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrey\\source\\repos\\Stock_System\\Stock_System\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Stock_System\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\Kelly\\source\\repos\\Stock_System\\Stock_System\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Andrey\\source\\repos\\Stock_System\\Stock_System\\MainWindow.xaml",
               "RelativeToolTip": "Stock_System\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-09-12T19:01:58.731Z",

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kelly\\Source\\Repos\\Stock_System\\Stock_System\\Stock_System.csproj": {}
+    "C:\\Users\\Andrey\\source\\repos\\Stock_System\\Stock_System\\Stock_System.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kelly\\Source\\Repos\\Stock_System\\Stock_System\\Stock_System.csproj": {
+    "C:\\Users\\Andrey\\source\\repos\\Stock_System\\Stock_System\\Stock_System.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kelly\\Source\\Repos\\Stock_System\\Stock_System\\Stock_System.csproj",
+        "projectUniqueName": "C:\\Users\\Andrey\\source\\repos\\Stock_System\\Stock_System\\Stock_System.csproj",
         "projectName": "Stock_System",
-        "projectPath": "C:\\Users\\Kelly\\Source\\Repos\\Stock_System\\Stock_System\\Stock_System.csproj",
-        "packagesPath": "C:\\Users\\Kelly\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kelly\\Source\\Repos\\Stock_System\\Stock_System\\obj\\",
+        "projectPath": "C:\\Users\\Andrey\\source\\repos\\Stock_System\\Stock_System\\Stock_System.csproj",
+        "packagesPath": "C:\\Users\\Andrey\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Andrey\\source\\repos\\Stock_System\\Stock_System\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Kelly\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Andrey\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -62,6 +62,10 @@
               "target": "Package",
               "version": "[3.3.0, )"
             },
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[9.0.8, )"
@@ -69,6 +73,10 @@
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
               "version": "[9.0.8, )"
+            },
+            "MySQLConnection": {
+              "target": "Package",
+              "version": "[1.0.1, )"
             },
             "MySql.Data": {
               "target": "Package",
@@ -98,7 +106,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
