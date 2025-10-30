@@ -96,7 +96,7 @@
                     <Label Content="Milimetragem" Foreground="White"/>
                     <TextBox x:Name="txtMM"/>
 
-                    <Label Content="MOQ (m)" Foreground="White"/>
+                    <Label Content="Standard Pack" Foreground="White"/>
                     <TextBox x:Name="txtMOQ"/>
 
                     <Label Content="Estoque (m)" Foreground="White"/>

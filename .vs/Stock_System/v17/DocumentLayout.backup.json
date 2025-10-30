@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Andrey\\source\\repos\\Controle_de_Estoque\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|c:\\users\\andrey\\source\\repos\\controle_de_estoque\\stock_system\\views\\rolodialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|solutionrelative:stock_system\\views\\rolodialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|c:\\users\\andrey\\source\\repos\\controle_de_estoque\\stock_system\\views\\calculadorametragem.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|solutionrelative:stock_system\\views\\calculadorametragem.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|c:\\users\\andrey\\source\\repos\\controle_de_estoque\\stock_system\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|solutionrelative:stock_system\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
@@ -43,6 +51,30 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "RoloDialog.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrey\\source\\repos\\Controle_de_Estoque\\Stock_System\\Views\\RoloDialog.xaml",
+              "RelativeDocumentMoniker": "Stock_System\\Views\\RoloDialog.xaml",
+              "ToolTip": "C:\\Users\\Andrey\\source\\repos\\Controle_de_Estoque\\Stock_System\\Views\\RoloDialog.xaml",
+              "RelativeToolTip": "Stock_System\\Views\\RoloDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-30T17:19:32.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CalculadoraMetragem.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrey\\source\\repos\\Controle_de_Estoque\\Stock_System\\Views\\CalculadoraMetragem.xaml",
+              "RelativeDocumentMoniker": "Stock_System\\Views\\CalculadoraMetragem.xaml",
+              "ToolTip": "C:\\Users\\Andrey\\source\\repos\\Controle_de_Estoque\\Stock_System\\Views\\CalculadoraMetragem.xaml",
+              "RelativeToolTip": "Stock_System\\Views\\CalculadoraMetragem.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-30T17:19:29.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Andrey\\source\\repos\\Controle_de_Estoque\\Stock_System\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Stock_System\\MainWindow.xaml",
