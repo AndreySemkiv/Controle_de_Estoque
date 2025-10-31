@@ -90,7 +90,7 @@ namespace EstoqueRolos
                     cmd.CommandText = @"CREATE TABLE IF NOT EXISTS rolos (
                         Code TEXT PRIMARY KEY,
                         Descricao TEXT,
-                        Milimetragem INTEGER,
+                        Milimetragem REAL,
                         MOQ INTEGER,
                         Estoque REAL,
                         MetragemWIP REAL

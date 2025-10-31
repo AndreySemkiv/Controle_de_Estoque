@@ -1,14 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Andrey\\source\\repos\\Controle_de_Estoque\\",
+  "WorkspaceRootPath": "C:\\Users\\Kelly\\source\\repos\\Controle_de_Estoque\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|c:\\users\\andrey\\source\\repos\\controle_de_estoque\\stock_system\\stock_system.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|solutionrelative:stock_system\\stock_system.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|c:\\users\\kelly\\source\\repos\\controle_de_estoque\\stock_system\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|solutionrelative:stock_system\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|c:\\users\\andrey\\source\\repos\\controle_de_estoque\\stock_system\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|solutionrelative:stock_system\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|c:\\users\\kelly\\source\\repos\\controle_de_estoque\\stock_system\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|solutionrelative:stock_system\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|c:\\users\\kelly\\source\\repos\\controle_de_estoque\\stock_system\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|solutionrelative:stock_system\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|c:\\users\\kelly\\source\\repos\\controle_de_estoque\\stock_system\\models\\rolo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|solutionrelative:stock_system\\models\\rolo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|c:\\users\\kelly\\source\\repos\\controle_de_estoque\\stock_system\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|solutionrelative:stock_system\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|c:\\users\\kelly\\source\\repos\\controle_de_estoque\\stock_system\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D4AF5A7C-2EB7-48C7-94A2-F057DBD3409B}|Stock_System\\Stock_System.csproj|solutionrelative:stock_system\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +34,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 8,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
@@ -37,35 +57,80 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Stock_System",
-              "DocumentMoniker": "C:\\Users\\Andrey\\Source\\Repos\\Controle_de_Estoque\\Stock_System\\Stock_System.csproj",
-              "RelativeDocumentMoniker": "Stock_System\\Stock_System.csproj",
-              "ToolTip": "C:\\Users\\Andrey\\Source\\Repos\\Controle_de_Estoque\\Stock_System\\Stock_System.csproj",
-              "RelativeToolTip": "Stock_System\\Stock_System.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-30T17:24:27.416Z",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Kelly\\source\\repos\\Controle_de_Estoque\\Stock_System\\appsettings.json",
+              "RelativeDocumentMoniker": "Stock_System\\appsettings.json",
+              "ToolTip": "C:\\Users\\Kelly\\source\\repos\\Controle_de_Estoque\\Stock_System\\appsettings.json",
+              "RelativeToolTip": "Stock_System\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-31T11:39:29.071Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Andrey\\source\\repos\\Controle_de_Estoque\\Stock_System\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "Stock_System\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\Andrey\\source\\repos\\Controle_de_Estoque\\Stock_System\\MainWindow.xaml",
-              "RelativeToolTip": "Stock_System\\MainWindow.xaml",
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Kelly\\source\\repos\\Controle_de_Estoque\\Stock_System\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Stock_System\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\Kelly\\source\\repos\\Controle_de_Estoque\\Stock_System\\App.xaml.cs",
+              "RelativeToolTip": "Stock_System\\App.xaml.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAAF0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T11:47:06.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Rolo.cs",
+              "DocumentMoniker": "C:\\Users\\Kelly\\source\\repos\\Controle_de_Estoque\\Stock_System\\Models\\Rolo.cs",
+              "RelativeDocumentMoniker": "Stock_System\\Models\\Rolo.cs",
+              "ToolTip": "C:\\Users\\Kelly\\source\\repos\\Controle_de_Estoque\\Stock_System\\Models\\Rolo.cs",
+              "RelativeToolTip": "Stock_System\\Models\\Rolo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T11:46:59.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Kelly\\source\\repos\\Controle_de_Estoque\\Stock_System\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Stock_System\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Kelly\\source\\repos\\Controle_de_Estoque\\Stock_System\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Stock_System\\MainWindow.xaml.cs",
+              "ViewState": "AgIAACYBAAAAAAAAAAAwwD4BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T11:46:34.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Kelly\\source\\repos\\Controle_de_Estoque\\Stock_System\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Stock_System\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\Kelly\\source\\repos\\Controle_de_Estoque\\Stock_System\\AssemblyInfo.cs",
+              "RelativeToolTip": "Stock_System\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T11:46:30.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Kelly\\source\\repos\\Controle_de_Estoque\\Stock_System\\App.xaml",
+              "RelativeDocumentMoniker": "Stock_System\\App.xaml",
+              "ToolTip": "C:\\Users\\Kelly\\source\\repos\\Controle_de_Estoque\\Stock_System\\App.xaml",
+              "RelativeToolTip": "Stock_System\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-12T19:01:58.731Z",
+              "WhenOpened": "2025-10-31T11:46:07.405Z",
               "EditorCaption": ""
             }
           ]

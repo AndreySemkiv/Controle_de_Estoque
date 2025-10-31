@@ -228,11 +228,9 @@ namespace EstoqueRolos
                 }
                 catch
                 {
-
                 }
             }
         }
-
 
         private void MenuCarregarBanco_Click(object sender, RoutedEventArgs e)
         {
@@ -287,14 +285,22 @@ namespace EstoqueRolos
                                     "Sucesso", MessageBoxButton.OK, MessageBoxImage.Information);
 
                     // Reinicializa o aplicativo de forma segura
-                    string exePath = System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName;
+                    string exePath = System.Diagnostics.Process.GetCurrentProcess().MainModule?.FileName ?? string.Empty;
 
-                    Task.Run(() =>
+                    if (!string.IsNullOrEmpty(exePath))
                     {
-                        // Aguarda o app atual encerrar antes de abrir o novo
-                        System.Threading.Thread.Sleep(1000);
-                        System.Diagnostics.Process.Start(exePath);
-                    });
+                        Task.Run(() =>
+                        {
+                            // Aguarda o app atual encerrar antes de abrir o novo
+                            System.Threading.Thread.Sleep(1000);
+                            System.Diagnostics.Process.Start(exePath);
+                        });
+                    }
+                    else
+                    {
+                        MessageBox.Show("Não foi possível determinar o caminho do executável para reiniciar o aplicativo.",
+                                        "Erro", MessageBoxButton.OK, MessageBoxImage.Error);
+                    }
 
                     Application.Current.Dispatcher.Invoke(() =>
                     {
@@ -308,6 +314,5 @@ namespace EstoqueRolos
                                 "Erro", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
-
     }
 }
