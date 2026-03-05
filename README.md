@@ -46,11 +46,6 @@ O projeto foi criado para automatizar e simplificar o controle de entrada, saíd
 - Windows 10 ou superior
 
 ---
-
-## Autor
-
-### Andrey Semkiv
-- 📧 Contato: andreysemkivrocha@gmail.com
 - 🔗 GitHub: https://github.com/AndreySemkiv
 
 
