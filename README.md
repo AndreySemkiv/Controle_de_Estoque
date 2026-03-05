@@ -46,7 +46,6 @@ O projeto foi criado para automatizar e simplificar o controle de entrada, saíd
 - Windows 10 ou superior
 
 ---
-- 🔗 GitHub: https://github.com/AndreySemkiv
 
 
 
