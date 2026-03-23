@@ -30,6 +30,19 @@ namespace EstoqueRolos
             _ = CarregarAsync();
         }
 
+        private void MenuToggle_Click(object sender, RoutedEventArgs e)
+        {
+            if (colSidebar.Width.Value > 60)
+            {
+                colSidebar.Width = new GridLength(60);
+                // Opcional: Esconder textos se necessário, mas o GridLength já reduz o espaço
+            }
+            else
+            {
+                colSidebar.Width = new GridLength(220);
+            }
+        }
+
         private void Window_Closing(object? sender, System.ComponentModel.CancelEventArgs e)
         {
             var result = MessageBox.Show("Deseja fazer um backup do seu banco de dados?", "Backup do Banco de Dados", MessageBoxButton.YesNoCancel, MessageBoxImage.Question);

@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Stock_System"
   ],
-  "SelectedNode": "\\Stock_System.sln",
+  "SelectedNode": "\\Stock_System\\MainWindow.xaml",
   "PreviewInSolutionExplorer": false
 }

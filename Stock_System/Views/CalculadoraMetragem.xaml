@@ -2,177 +2,176 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Calcular Metragem Disponível"
-        Height="560" Width="742"
+        Height="580" Width="800"
         WindowStartupLocation="CenterOwner"
-        Background="#0D0D0D"
+        Background="{StaticResource BrushLightGray}"
         ResizeMode="NoResize"
         Icon="/Views/Logo.png">
 
     <Window.Resources>
-        <!-- Estilo de TextBox -->
-        <Style TargetType="TextBox">
-            <Setter Property="Foreground" Value="White"/>
-            <Setter Property="Background" Value="#111111"/>
-            <Setter Property="BorderBrush" Value="#2563EB"/>
-            <Setter Property="BorderThickness" Value="1"/>
-            <Setter Property="Padding" Value="8,4"/>
-            <Setter Property="Margin" Value="0,0,0,12"/>
-            <Setter Property="Height" Value="32"/>
+        <Style TargetType="Label">
+            <Setter Property="Foreground" Value="{StaticResource BrushTextDark}"/>
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Margin" Value="0,0,0,2"/>
         </Style>
 
-        <!-- Botão primário -->
-        <Style x:Key="PrimaryButton" TargetType="Button">
-            <Setter Property="Foreground" Value="White"/>
-            <Setter Property="Background" Value="#2563EB"/>
-            <Setter Property="Padding" Value="10,6"/>
-            <Setter Property="FontWeight" Value="SemiBold"/>
+        <Style TargetType="TextBox">
+            <Setter Property="Padding" Value="8,5"/>
+            <Setter Property="Margin" Value="0,0,0,15"/>
+            <Setter Property="BorderBrush" Value="{StaticResource BrushMediumGray}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Height" Value="32"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+        </Style>
+
+        <Style x:Key="CalcButtonStyle" TargetType="Button">
+            <Setter Property="Padding" Value="20,8"/>
             <Setter Property="Cursor" Value="Hand"/>
-            <Setter Property="BorderThickness" Value="0"/>
-            <Setter Property="MinWidth" Value="100"/>
-            <Setter Property="Margin" Value="0,0,0,0"/>
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="Button">
-                        <Border Background="{TemplateBinding Background}"
-                                CornerRadius="8">
-                            <ContentPresenter HorizontalAlignment="Center"
-                                              VerticalAlignment="Center"
-                                              Margin="4,0,4,0"/>
+                        <Border Background="{TemplateBinding Background}" Padding="{TemplateBinding Padding}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Border>
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>
-            <Style.Triggers>
-                <Trigger Property="IsMouseOver" Value="True">
-                    <Setter Property="Background" Value="#1E40AF"/>
-                </Trigger>
-            </Style.Triggers>
-        </Style>
-
-        <!-- Botão secundário -->
-        <Style x:Key="SecondaryButton" TargetType="Button" BasedOn="{StaticResource PrimaryButton}">
-            <Setter Property="Background" Value="#374151"/>
-            <Setter Property="Foreground" Value="White"/>
-            <Style.Triggers>
-                <Trigger Property="IsMouseOver" Value="True">
-                    <Setter Property="Background" Value="#4B5563"/>
-                </Trigger>
-            </Style.Triggers>
         </Style>
     </Window.Resources>
 
-    <Grid Margin="24">
-        <Border Background="#1A1A1A"
-                CornerRadius="16"
-                Padding="20">
-            <Border.Effect>
-                <DropShadowEffect BlurRadius="20"
-                                  ShadowDepth="0"
-                                  Opacity="0.6"
-                                  Color="#2563EB"/>
-            </Border.Effect>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="70"/>
+        </Grid.RowDefinitions>
 
-            <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="Auto"/>
-                </Grid.RowDefinitions>
-
-                <TextBlock Text="📱 Calcular Metragem"
-                           FontSize="20"
-                           FontWeight="Bold"
-                           Foreground="White"/>
-
-
-
-
-
-                <!-- Formulário -->
-                <StackPanel Grid.Row="1" Margin="0,88,0,0">
-
-                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="0,0,0,12">
-                        <StackPanel Orientation="Vertical" Margin="0,0,10,0">
-                            <Label Content="R" Foreground="White" HorizontalAlignment="Center" FontWeight="Bold"/>
-                            <TextBox x:Name="txtR" Width="90" HorizontalAlignment="Center" PreviewTextInput="NumberValidationTextBox"/>
-                        </StackPanel>
-
-                        <StackPanel Orientation="Vertical">
-                            <Label Content="r" Foreground="White" HorizontalAlignment="Center" FontWeight="Bold"/>
-                            <TextBox x:Name="txtr" Width="90" HorizontalAlignment="Center" PreviewTextInput="NumberValidationTextBox"/>
-                        </StackPanel>
-                    </StackPanel>
-
-                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="0,0,0,12">
-                        <StackPanel Orientation="Vertical" Margin="0,0,10,0">
-                            <Label Content="E0" Foreground="White" HorizontalAlignment="Center" FontWeight="Bold"/>
-                            <TextBox x:Name="txtE0" Width="90" HorizontalAlignment="Center" PreviewTextInput="NumberValidationTextBox"/>
-                        </StackPanel>
-
-                        <StackPanel Orientation="Vertical">
-                            <Label Content="Profundidade" Foreground="White" HorizontalAlignment="Center" FontWeight="Bold"/>
-                            <TextBox x:Name="txtE" Width="90" HorizontalAlignment="Center" PreviewTextInput="NumberValidationTextBox"/>
-                        </StackPanel>
-                    </StackPanel>
-
-                    <StackPanel Orientation="Vertical" HorizontalAlignment="Left" Margin="50,0,0,12">
-                        <Label Content="Standard Pack" Foreground="White" Width="92" FontWeight="Bold"/>
-                        <TextBox x:Name="txtMmax" Width="90" HorizontalAlignment="Left" PreviewTextInput="NumberValidationTextBox"/>
-                    </StackPanel>
-
-                    <!-- Botões + Resultado lado a lado -->
-                    <StackPanel Grid.Row="2"
-                                Orientation="Horizontal"
-                                HorizontalAlignment="Left"
-                                Margin="43,5,0,0">
-
-                        <Button Content="Calcular"
-                                Click="Calcular_Click"
-                                Style="{StaticResource PrimaryButton}"
-                                Margin="0,0,10,0" Width="100" Height="32"/>
-                        <TextBox x:Name="txtResultado" Width="150" IsReadOnly="True" Margin="50,0,10,0"/>
-                        <Button Content="Copiar" Click="Copiar_Click" Style="{StaticResource SecondaryButton}"/>
-                    </StackPanel>
-
-                </StackPanel>
-
-
-                <!-- Botão Cancelar -->
-                <StackPanel Grid.Row="2"
-                            Orientation="Horizontal"
-                            HorizontalAlignment="Right"
-                            Margin="0,20,0,0">
-                    <Button Content="Cancelar"
-                            Click="Cancelar_Click"
-                            Style="{StaticResource SecondaryButton}"
-                            Margin="10,0,0,0"/>
-                </StackPanel>
-
-            </Grid>
+        <!-- Header -->
+        <Border Grid.Row="0" Background="{StaticResource BrushTeal}" Padding="20,0">
+            <DockPanel VerticalAlignment="Center">
+                <TextBlock Text="📱 CALCULAR METRAGEM" 
+                           Foreground="White" 
+                           FontSize="16" 
+                           FontWeight="Bold" 
+                           VerticalAlignment="Center"/>
+                <ComboBox Name="myComboBox" 
+                          DockPanel.Dock="Right" 
+                          HorizontalAlignment="Right" 
+                          Width="220" 
+                          Height="32" 
+                          VerticalContentAlignment="Center"
+                          SelectionChanged="myComboBox_SelectionChanged">
+                    <ComboBoxItem Content="Selecione um Padrão..." IsSelected="True"/>
+                    <ComboBoxItem Content="Bobina de 200mm" />
+                    <ComboBoxItem Content="Bobina de 250mm" />
+                    <ComboBoxItem Content="Bobina de 355mm" />
+                </ComboBox>
+            </DockPanel>
         </Border>
 
-        <Image Source="/Imagens/Bobina.png"
-       Width="346"
-       HorizontalAlignment="Left"
-       Margin="289,115,0,154"/>
+        <!-- Main Content -->
+        <Grid Grid.Row="1" Margin="20">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="300"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
 
-        <TextBlock Text="Representação"
-                           FontSize="20"
-                           FontWeight="Bold"
-                           Foreground="White" Margin="374,82,-374,285"/>
+            <!-- Inputs -->
+            <Border Grid.Column="0" Background="White" Padding="20" BorderBrush="{StaticResource BrushMediumGray}" BorderThickness="1">
+                <StackPanel>
+                    <TextBlock Text="Parâmetros de Entrada" FontWeight="Bold" Margin="0,0,0,15" Foreground="{StaticResource BrushTeal}"/>
+                    
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Grid.Column="0" Margin="0,0,5,0">
+                            <Label Content="Raio Externo (R)"/>
+                            <TextBox x:Name="txtR" PreviewTextInput="NumberValidationTextBox"/>
+                        </StackPanel>
+                        <StackPanel Grid.Column="1" Margin="5,0,0,0">
+                            <Label Content="Raio Interno (r)"/>
+                            <TextBox x:Name="txtr" PreviewTextInput="NumberValidationTextBox"/>
+                        </StackPanel>
+                    </Grid>
 
-        <TextBlock Text="Valores Padrão"
-                           FontSize="15"
-                           Foreground="White" HorizontalAlignment="Left" Margin="57,76,0,294" Width="98"/>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Grid.Column="0" Margin="0,0,5,0">
+                            <Label Content="Espessura (E0)"/>
+                            <TextBox x:Name="txtE0" PreviewTextInput="NumberValidationTextBox"/>
+                        </StackPanel>
+                        <StackPanel Grid.Column="1" Margin="5,0,0,0">
+                            <Label Content="Profundidade"/>
+                            <TextBox x:Name="txtE" PreviewTextInput="NumberValidationTextBox"/>
+                        </StackPanel>
+                    </Grid>
 
+                    <Label Content="Standard Pack"/>
+                    <TextBox x:Name="txtMmax" PreviewTextInput="NumberValidationTextBox"/>
 
-        <ComboBox Name="myComboBox" HorizontalAlignment="Right" VerticalAlignment="Top" Width="200" Height="30" Margin="0,98,472,0" SelectionChanged="myComboBox_SelectionChanged">
-            <ComboBoxItem Content="Vazio/Nenhum Selecionado" />
-            <ComboBoxItem Content="Bobina de 200mm" />
-            <ComboBoxItem Content="Bobina de 250mm" />
-            <ComboBoxItem Content="Bobina de 355mm" />
-        </ComboBox>
+                    <Button Content="Calcular Metragem" 
+                            Click="Calcular_Click" 
+                            Style="{StaticResource CalcButtonStyle}" 
+                            Background="{StaticResource BrushTeal}" 
+                            Foreground="White"
+                            Height="40"
+                            Margin="0,10,0,0"/>
+                </StackPanel>
+            </Border>
 
+            <!-- Visual/Result -->
+            <Border Grid.Column="1" Background="White" Margin="15,0,0,0" Padding="20" BorderBrush="{StaticResource BrushMediumGray}" BorderThickness="1">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Text="Representação Técnica" FontWeight="Bold" Foreground="{StaticResource BrushTeal}"/>
+                    
+                    <Image Grid.Row="1" Source="/Imagens/Bobina.png" Margin="20" Stretch="Uniform"/>
+
+                    <Border Grid.Row="2" Background="#F8FAFC" Padding="15" BorderBrush="{StaticResource BrushMediumGray}" BorderThickness="0,1,0,0">
+                        <DockPanel>
+                            <Label Content="Resultado (m):" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                            <TextBox x:Name="txtResultado" 
+                                     IsReadOnly="True" 
+                                     Height="35" 
+                                     FontSize="16" 
+                                     FontWeight="Bold" 
+                                     TextAlignment="Center"
+                                     Background="#F0F0F0"
+                                     Margin="0,0,10,0"/>
+                            <Button Content="Copiar" 
+                                    Click="Copiar_Click" 
+                                    Width="80" 
+                                    Style="{StaticResource CalcButtonStyle}" 
+                                    Background="{StaticResource BrushMediumGray}" 
+                                    Foreground="{StaticResource BrushTextDark}"/>
+                        </DockPanel>
+                    </Border>
+                </Grid>
+            </Border>
+        </Grid>
+
+        <!-- Footer -->
+        <Border Grid.Row="2" Background="#F0F0F0" Padding="20,0">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center">
+                <Button Content="Fechar" 
+                        Click="Cancelar_Click" 
+                        Style="{StaticResource CalcButtonStyle}" 
+                        Background="{StaticResource BrushMediumGray}" 
+                        Foreground="{StaticResource BrushTextDark}"/>
+            </StackPanel>
+        </Border>
     </Grid>
-
 </Window>

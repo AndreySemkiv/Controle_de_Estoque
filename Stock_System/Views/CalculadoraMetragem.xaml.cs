@@ -72,7 +72,10 @@ namespace EstoqueRolos.Views
         private void Copiar_Click(object sender, RoutedEventArgs e)
         {
             if (!string.IsNullOrWhiteSpace(txtResultado.Text))
+            {
                 Clipboard.SetText(txtResultado.Text);
+                MessageBox.Show("Resultado copiado para a área de transferência!", "Sucesso", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
         }
 
         private void Cancelar_Click(object sender, RoutedEventArgs e)
@@ -105,10 +108,10 @@ namespace EstoqueRolos.Views
                         txtMmax.Text = "4200";
                         break;
                     default:
-                        txtR.Clear();
-                        txtr.Clear();
-                        txtE0.Clear();
-                        txtMmax.Clear();
+                        txtR?.Clear();
+                        txtr?.Clear();
+                        txtE0?.Clear();
+                        txtMmax?.Clear();
                         break;
                 }
             }

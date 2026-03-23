@@ -3,8 +3,23 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-        <SolidColorBrush x:Key="Primary" Color="#006FFF"/>
-        <SolidColorBrush x:Key="PrimaryDark" Color="#0057CC"/>
-        <SolidColorBrush x:Key="Bg" Color="#F5F7FA"/>
+        <!-- Cores da Inspiração (Teal, Cinza, Branco) -->
+        <Color x:Key="ColorSidebarDark">#1B4F52</Color>
+        <Color x:Key="ColorTeal">#17A2A2</Color>
+        <Color x:Key="ColorTealLight">#20B2AA</Color>
+        <Color x:Key="ColorGreen">#6BA539</Color>
+        <Color x:Key="ColorWhite">#FFFFFF</Color>
+        <Color x:Key="ColorLightGray">#F5F5F5</Color>
+        <Color x:Key="ColorMediumGray">#E0E0E0</Color>
+        <Color x:Key="ColorTextDark">#2C2C2C</Color>
+
+        <SolidColorBrush x:Key="BrushSidebarDark" Color="{StaticResource ColorSidebarDark}"/>
+        <SolidColorBrush x:Key="BrushTeal" Color="{StaticResource ColorTeal}"/>
+        <SolidColorBrush x:Key="BrushTealLight" Color="{StaticResource ColorTealLight}"/>
+        <SolidColorBrush x:Key="BrushGreen" Color="{StaticResource ColorGreen}"/>
+        <SolidColorBrush x:Key="BrushWhite" Color="{StaticResource ColorWhite}"/>
+        <SolidColorBrush x:Key="BrushLightGray" Color="{StaticResource ColorLightGray}"/>
+        <SolidColorBrush x:Key="BrushMediumGray" Color="{StaticResource ColorMediumGray}"/>
+        <SolidColorBrush x:Key="BrushTextDark" Color="{StaticResource ColorTextDark}"/>
     </Application.Resources>
 </Application>
